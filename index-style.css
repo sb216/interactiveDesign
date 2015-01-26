@@ -2,9 +2,10 @@ body {
 	background-color: #33D6AD;
 }
 
-p {
+.homepageTitle {
 	font-family: "Lato";
 	font-weight: 700;
 	font-size: 50px;
 	text-align: center;
+	border: solid black 2px;
 }
