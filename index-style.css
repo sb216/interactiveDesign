@@ -2,7 +2,7 @@ body {
 	background-color: #33D6AD;
 }
 
-#homepageTitle {
+.homepage {
 	font-family: "Lato";
 	font-weight: 700;
 	font-size: 50px;
@@ -13,4 +13,32 @@ body {
 	top: 40px;
 	margin: auto;
 	padding: 10px;
+}
+
+
+#title {
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	width: 300px;
+	position: relative;
+	top: 75px;
+	margin: auto;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+a:focus{
+	text-decoration: none;
 }
