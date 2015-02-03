@@ -175,17 +175,21 @@ li {
 	font-size: 18px;
 }
 
-#sources {
+.sources ol {
 	list-style-type: decimal;
 }
 
-#sources a {
+.sources a {
 	color: black;
-	font-size: 18px;
+	font-size: 13px;
 }
 
-#sources a:hover {
+.sources a:hover {
 	font-weight: 700;
+}
+
+.sources li {
+	font-size: 13px;
 }
 
 img {
