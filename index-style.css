@@ -16,7 +16,7 @@ body {
 }
 
 
-#title {
+.title {
 	font-family: "Lato";
 	font-weight: 400;
 	font-size: 20px;
