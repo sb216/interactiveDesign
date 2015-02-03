@@ -175,6 +175,10 @@ li {
 	font-size: 18px;
 }
 
+.sources {
+	margin-top: 20px;
+}
+
 .sources ol {
 	list-style-type: decimal;
 }
