@@ -21,7 +21,7 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: 80F2DA;
+	color: #80F2DA;
 	font-size: 15px;
 	text-transform: lowercase;
 }
@@ -136,6 +136,9 @@ h2 {
 	left: -20px;
 	margin: 0;
 	padding: 0;
+	border: 9px solid black;
+	border-left: none;
+	border-right: none;
 }
 
 ol {
@@ -164,10 +167,26 @@ ul {
 	padding-top: 50px;
 }
 
+sup {
+	font-size: 12px;
+}
+
 li {
 	font-size: 18px;
 }
 
+#sources {
+	list-style-type: decimal;
+}
+
+#sources a {
+	color: black;
+	font-size: 18px;
+}
+
+#sources a:hover {
+	font-weight: 700;
+}
 
 img {
 	max-width: 100%;
