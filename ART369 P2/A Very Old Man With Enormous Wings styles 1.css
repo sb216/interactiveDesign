@@ -1,3 +1,9 @@
+
+
+
+
+/***********************STYLE ONE ***********************/
+
 html {
 	font-size: 100%;
 	margin: 0px;
@@ -41,7 +47,7 @@ html {
 
 body.one {
 	background-color: #EEE;
-	font-family: "proxima-nova-1";
+	font-family: "proxima-nova-1", Helvetica, sans-serif;
 	line-height: 1;
 	margin: 0px;
 	padding: 0px;
@@ -116,6 +122,139 @@ body.one .text {
 	margin: 0px 0px 20px;
 	font-weight: 300;
 }
+
+
+
+
+
+/***********************STYLE TWO***********************/
+
+
+
+body.two {
+	background-color: #3E3E40;
+	min-width: 100%;
+	min-height: 100%;
+	line-height: 24px;
+	font-family: "Circular Medium", Helvetica, sans-serif;
+	letter-spacing: 0.04em;
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body.two .container {
+	max-width: 976px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+
+body.two .clearfix {
+  overflow: auto;
+}
+
+body.two header {
+	width: 824px;
+	height: 165px;
+	margin: 0px auto;
+	margin-top: 72px;
+
+
+	background: url(Angel-Wings-logo-2.png) no-repeat scroll center / 408px 168px transparent;;
+}
+
+body.two header:hover {
+	width: 824px;
+	height: 165px;
+	margin: 0px auto;
+	margin-top: 72px;
+
+	background: url(Angel-Wings-logo-hover-2.png) no-repeat scroll center / 408px 160px transparent;;
+}
+
+
+body.two .main {
+	margin-top: 62px;
+}
+
+body.two p {
+	font-size: 16px;
+}
+
+body.two .text {
+	border-top: 2px solid #945D55;
+	border-bottom: 2px solid #945D55;
+	width: 400px;
+	margin-left: 76px;
+	padding-top: 72px;
+	
+
+	float: left;
+	color: #FFF;
+}
+
+body.two h1 {
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0px;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+
+body.two .text p {
+	margin-top: 24px;
+}
+
+body.two .details {
+	width: 400px;
+	margin-right: 76px;
+	float: right;
+
+	color: #945D55;
+	border: 6px solid #945D55;
+}
+
+body.two .details-text {
+	width: 388px;
+	text-align: center;
+	line-height: 36px;
+	padding: 0px 24px;
+	margin-top: 87px;
+	margin-bottom: 120px;
+}
+
+body.two .details-text p {
+	padding: 0px;
+	margin: 0px;
+}
+
+body.two .details-text h2 {
+	font-size: 30px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
