@@ -544,14 +544,22 @@ body.six .sidebar-contents span{
 
 }
 
+body.six .main {
+	background: #EFEFEF;
+	position: fixed;
+	left: 120px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
 body.six .text {
 	padding: 0px 0px 0px 120px;
-	background: #EFEFEF;
+	/*background: #EFEFEF;*/
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0px;
 	float: right;
-
 
 }
 
@@ -599,6 +607,7 @@ body.six .main-text {
 	box-sizing: border-box;
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 30px;
 
 }
 
@@ -682,11 +691,10 @@ body.seven .sidebar-contents p {
 body.seven .text {
 	left: 35%;
 	max-width: 60%;
-	position: relative;
-	top: 0px;
 	width: 35em;
 	padding: 5% 0% 10% 6%;
 	margin-top: 170px;
+	position: relative;
 }
 
 
@@ -743,6 +751,11 @@ body.eight h1 {
 	
 }
 
+
+body.eight .photo {
+	width: 100%;
+}
+
 body.eight p {
 	text-align: center;
 	line-height: 22px;
@@ -777,9 +790,205 @@ body.eight .main-text p {
 
 
 
+/***********************STYLE NINE***********************/
+
+body.nine {
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	text-rendering: optimizelegibility;
+	background: url("rainstorm landscape.jpg");
+	background-attachment: fixed;
+}
+
+
+body.nine .sidebar {
+	background-color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	width: 230px;
+	height: 100%;
+	text-align: center;
+	padding-top: 36px;
+	position: fixed;
+	
+}
+
+body.nine .sidebar img {
+	position: relative;
+	left: -23px;
+}
+
+body.nine img {
+	height: 80px;
+	width: auto;
+
+}
+
+body.nine .details-contents {
+	margin-top: 55px;
+	color: #B8B8B8;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 54px;
+}
+
+body.nine h1 {
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0px auto;
+	text-align: left;
+	margin-left: 54px;
+}
+
+
+body.nine .text {
+	width: 320px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 230px;
+	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+
+	
+}
+
+body.nine .main {
+	width: 320px;
+	height: 100%;
+	background: none repeat scroll 0px 0px rgba(0, 0, 0, 0.6);
+	position: fixed;
+
+}
+
+body.nine .main-text {
+	padding: 144px 20px 54px;
+	position: relative;
+}
+
+body.nine .main-text h1 {
+	color: #FFF;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 18px;
+	padding-bottom: 9px;
+	line-height: 1.5;
+	position: relative;
+	text-transform: none;
+}
+
+
+body.nine .main-text p{
+	color: #CCC;
+	margin: 0px 0px 1.5em;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+
+body.nine span {
+	padding-bottom: 10px;
+	border-bottom: 0.25px solid #FFF;
+}
 
 
 
+/***********************STYLE TEN***********************/
+
+body.ten {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	background: url("rainstorm landscape.jpg");
+	background-attachment: fixed;
+}
+
+
+body.ten .text {
+	left: 0px;
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	
+}
+
+
+body.ten .main {
+	background: #FFF; 
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 50%;
+	left: 0px;
+
+}
+
+
+body.ten h1 {
+	color: #3B3D3C;
+	font-size: 13px;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+
+body.ten .details {
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	right: 0px;
+	color: #3B3D3C;
+	text-align: center;
+}
+
+
+body.ten .details-contents p{
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+}
+
+
+
+
+body.ten .main-text {
+	width: 60%;
+	position: absolute;
+	top: 160px;
+	height: 60%;
+	left: 127px;
+	right: 0px;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 0px auto;
+	margin-left: 0px 0px 20px;
+	text-align: justify;
+	padding-bottom: 20px;
+
+}
+
+
+/***********************STYLE ELEVEN***********************/
+body.eleven {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Noto Sans', sans-serif;
+}
 
 
 
