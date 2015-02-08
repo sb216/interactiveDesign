@@ -987,8 +987,65 @@ body.ten .main-text {
 body.eleven {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	background: url("rainstorm landscape.jpg");
+	background-attachment: fixed;
+	color: #FFF;
+	letter-spacing: 0.5px;
 }
+
+
+
+body.eleven img {
+	margin-bottom: 25px;
+}
+
+body.eleven h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 60px;
+	line-height: 64px;
+	letter-spacing: -2px;
+	margin: 0px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+
+body.eleven .text {
+	position: relative;
+	top: 140px;
+	text-align: center;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	
+}
+
+
+body.eleven .main-text {
+	text-align: center;
+	margin: 0px auto;
+	width: 460px;
+	
+}
+
+body.eleven .details-contents {
+	margin-bottom: 25px;
+
+}
+
+
+body.eleven .details-contents p {
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 100;
+	
+}
+
+
+
+/***********************STYLE TWELVE***********************/
 
 
 
