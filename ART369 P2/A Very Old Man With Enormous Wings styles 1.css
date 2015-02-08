@@ -1047,8 +1047,430 @@ body.eleven .details-contents p {
 
 /***********************STYLE TWELVE***********************/
 
+body.twelve {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+}
+
+body.container {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+}
+body.twelve .title {
+	background: none repeat scroll 0% 0% #00C95E;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	padding: 80px 0px 60px;
+	position: relative;
+	top: -20px;
+	float: left;
+	display: block;
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+body.twelve img {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20px;
+}
 
 
+body.twelve .details-contents {
+	width: 1161px;
+	margin: 0px auto;
+	padding-left: 51px;
+	padding-right: 51px;
+	box-sizing: border-box;
+}
+
+body.twelve h1 {
+	font-size: 7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+body.twelve h2 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.63em;
+	text-transform: uppercase;
+	margin-left: 80px;
+	font-weight: 300;
+
+}
+
+
+body.twelve .quote {
+	/*background: none repeat scroll 0% 0% #52B3D9;
+	color: #E3DB00;*/
+	background: none repeat scroll 0% 0% #7A3BFF;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	padding: 80px 0px 60px;
+	position: relative;
+	top: -20px;
+	float: left;
+	display: block;
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+body.twelve h3 {
+	width: 1058px;
+	margin: 0px auto;
+	font-size: 2em;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+body.twelve .text {
+	background: none repeat scroll 0% 0% #86E2D5;
+	color: #7A3BFF;
+	margin: 0px;
+	padding: 0px;
+	padding: 80px 0px 60px;
+	position: relative;
+	top: -20px;
+	float: left;
+	display: block;
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+body.twelve .main-text {
+	width: 1058px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+
+body.twelve .main-text p {
+	font-size: 1.2em;
+	width: 500px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+}
+
+
+/***********************STYLE THIRTEEN***********************/
+
+body.thirteen {
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+	font-size: 1.2em;
+	line-height: 1.35em;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 300;
+	color: #231F20;
+	-mos-osx-font-smoothing: grayscale;
+	margin: 0px;
+	padding: 0px;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+body.thirteen .grid {
+	top: 0px;
+	left: 0px;
+}
+
+body.thirteen .title{
+	background: #577A99;
+	color: black;
+	/*position: absolute;
+	left: 0px;
+	top: 0px;*/
+	height: 398px;
+	float: left;
+	display: inline-block;
+	margin: 0px;
+	padding: 1em;
+	width: 66.6667%;
+
+}
+
+
+
+body.thirteen .details-contents {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	font-family: Courier, sans-serif;
+	font-weight: 100;
+	text-align: center;
+	padding: 0.75em 0px 0px;
+	margin: 0px 1.5em 1em;
+	line-height: 1.9em;
+
+
+}
+
+body.thirteen .details-contents h1 {
+	font-size: 2.7em;
+	line-height: 1.25em;
+	font-family: 'Raleway Dots', cursive;
+	font-weight: 300;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 24x;
+	text-transform: uppercase;
+	-mos-osx-font-smoothing: grayscale;
+	color: white;
+}
+
+body.thirteen .details-contents p {
+	font-size: 1.35em;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 23px;
+}
+
+
+body.thirteen .empty1 {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+	background: url("rainstorm landscape.jpg");
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.thirteen .empty3 {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+	background: url("Gabriel Garcia Marquez portrait.jpg");
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body.thirteen .quote-box {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+	background-color: white;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+body.thirteen .quote p {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	margin: 0px auto;
+	font-size: 1.7em;
+	padding-top: 50px;
+	width: 300px;
+}
+
+
+body.thirteen .quote span {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	margin: 0px auto;
+	font-size: 1 em;
+	padding-top: 25px;
+	width: 300px;
+}
+
+
+
+
+body.thirteen .empty2 {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+	background-color: white;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body.thirteen .empty4 {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.thirteen .empty5{
+	float: left;
+	display: inline-block;
+	height: 398px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #231F20;
+}
+
+body.thirteen .empty6 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background-color: #2D313F;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty7 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: url("rainstorm landscape.jpg");
+	height: 796px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty8 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: url("Angel-Wings-logo-purple.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty9 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: #89949C;
+	height: 796px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty10 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: #89949C;
+	height: 796px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty11 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: white;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+
+
+
+body.thirteen .empty12 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: url("rainstorm landscape.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 798px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body.thirteen .empty13 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	background: #577A99;
+	height: 398px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+body.thirteen .text {
+	width: 66.6667%;
+	float: left;
+	display: inline-block;
+	background: #E1FCFF;
+	color: black;
+	font-family: "Lato", sans-serif;
+	padding: 25px;
+	margin: 0px auto;
+	text-align: justify;
+	padding-bottom: 300px;
+
+
+}
+
+body.thirteen .main-text p {
+	color: black;
+	font-family: "Lato", sans-serif;
+	padding: 25px;
+	line-height: 1.5em;
+	margin: 0px auto;
+	width: 700px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/***********************STYLE FOURTEEN***********************/
 
 
 
