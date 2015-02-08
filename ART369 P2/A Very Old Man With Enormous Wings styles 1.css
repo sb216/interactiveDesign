@@ -1597,6 +1597,101 @@ body.fourteen .text {
 
 
 
+/***********************STYLE FIFTEEN***********************/
+
+
+body.fifteen {
+	margin: 0px;
+	padding: 0px;
+	font-family: Times, serif;
+	-mos-osx-font-smoothing: grayscale;
+	line-height: 22px;
+	font-size: 16px;
+}
+
+
+body.fifteen header {
+	position: fixed;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	top: 0px;
+	background: none repeat scroll 0% 0% #FFF;
+	padding-top: 40px;
+	z-index: 2;
+
+}
+
+body.fifteen .details-contents {
+	width: 1020px;
+	margin: 0px auto;
+	padding: 0px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #999;
+}
+
+body.fifteen h1 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+body.fifteen h2 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 0px;
+	padding-top: 10px;
+	margin: 0px;
+
+
+}
+
+body.fifteen span {
+	border-bottom: 2px solid #000;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+
+}
+
+
+body.fifteen .text {
+	padding-top: 49px;
+	position: relative;
+	top: 200px;
+	width: 1020px;
+	margin: 0px auto;
+}
+
+
+body.fifteen img {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 30px;
+}
+
+body.fifteen .main-text {
+	padding-top: 100px;
+	padding-bottom: 50px;
+
+}
+/*
+body.fifteen img {
+	display: inline;
+	position: absolute;
+	top: 250px;
+}*/
+
 
 
 
