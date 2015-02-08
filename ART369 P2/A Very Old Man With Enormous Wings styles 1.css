@@ -701,9 +701,78 @@ body.seven .main-text p {
 
 /***********************STYLE EIGHT***********************/
 
+body.eight {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 27px;
+	color: #4F4E4E;
+	letter-spacing: 0.5px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body.eight header {
+	margin: 75px auto;
+	width: 960px;
+	text-align: center;
+}
 
 
+body.eight header img {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
 
+
+body.eight .text {
+	margin: 0px auto;
+	width: 960px;
+
+}
+
+body.eight h1 {
+	text-align: center;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: 4px;
+	color: #525251;
+	
+}
+
+body.eight p {
+	text-align: center;
+	line-height: 22px;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body.eight .details {
+	padding-bottom: 59px;
+	margin-top: 65px;
+	border-bottom: 1px solid #4F4E4E;
+}
+
+body.eight .main-text {
+	margin: 67px 230px 45px;
+	width: 500px;
+
+}
+
+body.eight .main-text p {
+	font-family: "Open Sans", sans-serif;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
 
 
 
