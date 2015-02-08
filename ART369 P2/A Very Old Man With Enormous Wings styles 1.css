@@ -297,6 +297,415 @@ body.three .text {
 }
 
 
+/***********************STYLE FOUR***********************/
+
+body.four {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 18px;
+	font-size: 100%;
+	box-sizing: border-box;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body.four .container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+body.four p {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+body.four header {
+	text-transform: uppercase;
+	margin: 0px auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+	line-height: 3px;
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
+
+body.four header img {
+	margin: 0px auto;
+	margin-bottom: 35px;
+}
+
+body.four header p {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+body.four .photo {
+	margin-bottom: 100px;
+	padding-top: 85px;
+	border-top: 1px solid #222;
+}
+
+body.four .photo img {
+	max-width: 100%;
+}
+
+body.four #quote {
+	font-family: "Times New Roman", "Times", serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 26px;
+	border-top: 1px solid #222;
+	padding-top: 5px;
+	text-align: left;
+	text-rendering: optimizelegibility;
+
+}
+
+body.four .text {
+	width: 100%;
+	max-width: 780px;
+	margin: 0px auto;
+}
+
+body.four .main-text {
+	margin-top: 60px;
+	margin-bottom: 65px;
+	 padding: 1em;
+	  -moz-column-count: 2;
+	  -moz-column-gap: 1em;
+	  -webkit-column-count: 3;
+	  -webkit-column-gap: 1em;
+	  column-count: 3;
+	  column-gap: 1em;
+}
+
+body.four .empty {
+	border-top: 1px solid #222;
+	height: 30px;
+}
+
+
+/***********************STYLE FIVE***********************/
+
+
+body.five {
+	background-image: url("rainstorm landscape.jpg");
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 1em;
+	line-height: 1;
+
+}
+
+
+body.five p {
+	padding: 0px;
+	margin: 0px;
+}
+
+body.five .container {
+	max-width: 930px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body.five header {
+	background: none repeat scroll 0px 0px rgba(242, 242, 242, 0.9);
+	margin: 0px auto;
+	padding: 0px;
+	border-bottom: 1px solid #8E979D;
+}
+
+
+
+body.five h1 {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 44px;
+	padding-bottom: 10px;
+	padding-left: 13px;
+	color: #8E969D;
+	font-family: 'Comfortaa', cursive;
+	text-transform: lowercase;
+	font-size: 45px;
+
+}
+
+body.five .details {
+	border-top: 1px solid #8E979D;
+	font-size: 15px;
+	padding: 13px;
+	color: #777E80;
+}
+
+body.five .empty {
+	height: 50px;
+	padding: 0px;
+	border-top: 1px solid #8E979D;
+}
+
+
+body.five .text {
+	font-size: 12px;
+	line-height: 1.2em;
+	color: #666;
+	background: none repeat scroll 0px 0px rgba(242, 242, 242, 0.79);
+	padding: 20px 17px;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+body.five .main-text {
+	padding: 10px 10px 0px;
+	margin-top: 20px;
+	margin-bottom: 65px;
+	 padding: 1em;
+	  -moz-column-count: 2;
+	  -moz-column-gap: 3em;
+	  -webkit-column-count: 3;
+	  -webkit-column-gap: 3em;
+	  column-count: 3;
+	  column-gap: 3em;
+
+	  font-size: 12px;
+	  line-height: 1.4em;
+}
+
+body.five .main-text p {
+	margin-bottom: 12px;
+}
+
+
+
+
+
+/***********************STYLE SIX***********************/
+
+body.six {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0.25px;
+	margin: 0px;
+	padding: 0px;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body.six .container {
+	margin: 0px;
+	padding: 0px;
+}
+
+body.six .sidebar {
+	width: 120px;
+	float: left;
+	position: fixed;
+	background: none repeat scroll 0% 0% #FFF;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body.six .sidebar-contents {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 19px;
+	transform: rotate(-90deg);
+	width: 700px;
+	position: relative;
+	top: 230;
+	left: -287;
+	text-transform: lowercase;
+
+}
+
+body.six .sidebar-contents span{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 13px;
+	
+
+}
+
+body.six .text {
+	padding: 0px 0px 0px 120px;
+	background: #EFEFEF;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	float: right;
+
+
+}
+
+
+
+body.six .image {
+
+	background-image: url("rainstorm landscape 1200x740.jpg");
+	width: 51.5%;
+	height: 60%;
+	margin: auto 0px;
+	bottom: 0px;
+	position: absolute;
+	top: 0px;
+	right: 13%;
+
+}
+
+body.six h1 {
+	color: #2A2A2A;
+	width: 400px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.15em;
+	margin: 0px 0px 55px;
+	left: auto;
+	top: 85px;
+	right: 100px;
+	position: absolute;
+	letter-spacing: 1px;
+	text-align: right;
+
+}
+
+body.six .main-text {
+	position: relative;
+	left: 0px;
+	top: 200px;
+	margin-left: 145px;
+	width: 600px;
+	line-height: 1.6em;
+	font-size: 18px;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+/***********************STYLE SEVEN***********************/
+
+
+
+body.seven {
+	background-color: #FDA454;
+	letter-spacing: 0.08em;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica", sans-serif;
+	height: 100%;
+}
+
+body.seven:before {
+	content: " ";
+	background-color: #FFF;
+	height: 100%;
+	position: fixed;
+	width: 10%;
+	top: 0px;
+	bottom: 0px;
+}
+
+body.seven .sidebar {
+	transform: skewX(-5deg);
+	background-color: #FFF;
+	height: 100%;
+	position: fixed;
+	width: 30%;
+	top: 0px;
+	left: 0px;
+	padding: 5% 5% 10% 14%;
+	margin: 0px;
+	color: #0495FF;
+	overflow: hidden;
+}
+
+
+
+body.seven .sidebar-contents {
+	font-size: 20px;
+	transform: skewX(5deg);
+	width: 277px;
+	float: none;
+	display: block;
+	font-size-adjust; 0.45;
+	padding: 0px;
+	margin-left: -15px;
+
+}
+
+body.seven .sidebar h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;
+	margin: 0px;
+	margin-bottom: 30px;
+	padding: 0px;
+	line-height: 35px;
+	font-size: 37px;
+	text-transform: uppercase;
+
+}
+
+body.seven .sidebar-contents p {
+	font-size-adjust; 0.45;
+	margin: 0px;
+	padding: 5px;
+	font-weight: bold;
+
+}
+
+
+body.seven .text {
+	left: 35%;
+	max-width: 60%;
+	position: relative;
+	top: 0px;
+	width: 35em;
+	padding: 5% 0% 10% 6%;
+	margin-top: 170px;
+}
+
+
+
+body.seven .main-text p {
+	text-align: justify;
+	-moz-hyphens: auto;
+	margin-bottom: 1.6rem;
+}
+
+
+
+/***********************STYLE EIGHT***********************/
+
+
+
+
+
+
 
 
 
