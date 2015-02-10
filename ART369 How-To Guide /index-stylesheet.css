@@ -60,6 +60,7 @@ footer {
 	left: 163px;
 	padding: 0px;
 	margin: 0px auto;
+	z-index: 3;
 
 }
 
