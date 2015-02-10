@@ -1,0 +1,80 @@
+body {
+	height: 5000px;
+}
+
+.container {
+	position: relative;
+	width: 1000px;
+	height: 5000px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.how-to-portal {
+	display: inline-block;
+	margin: 10px;
+	padding-top: 50px;
+}
+
+.arrow {
+	position: relative;
+	top: 10px;
+	margin: 0px auto;
+}
+
+
+.arrow img {
+	display: block;
+	margin: 0px auto;
+}
+
+header {
+	position: absolute;
+	top: -68px;
+	left: 23px;
+	padding: 0px;
+	margin: 0px;
+	width: 949px;
+}
+
+header img {
+	width: 949px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: "Raleway Dots", cursive;
+	font-size: 100px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	position: relative;
+	top: 30px;
+
+}
+
+footer {
+	position: fixed;
+	bottom: -8px;
+	left: 163px;
+	padding: 0px;
+	margin: 0px auto;
+
+}
+
+footer img {
+	width: 949px;
+	height: auto;
+	margin: 0px auto;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+
+
+
+
+
