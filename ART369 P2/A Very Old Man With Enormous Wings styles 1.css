@@ -1688,6 +1688,218 @@ body.fifteen .main-text {
 
 
 
+/***********************STYLE SIXTEEN***********************/
+
+body.sixteen {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body.sixteen .sidebar {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+
+}
+
+body.sixteen h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 200px;
+  text-transform: uppercase;
+  line-height: 180px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body.sixteen .text {
+  position: relative;
+  width: 700px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+
+
+
+/***********************STYLE SEVENTEEN-A***********************/
+
+
+
+body.seventeen-a {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  background-color: #E6E6E6;
+ 
+}
+
+
+body.seventeen-a .main {
+  position: fixed;
+
+  width: 100%;
+  top: 20px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+body.seventeen-a .main-text {
+  font-size: 43px;
+  font-weight: 700;
+  /*color: #E6E6E6;*/
+  color: black;
+  position: relative;
+  float: right;
+  top: 0px;
+  right: 0px;
+  width: 600px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+body.seventeen-a .sidebar {
+  position: fixed;  
+  top: -28px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+  width: 600;
+  z-index: 2;
+}
+
+body.seventeen-a h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 80px;
+  color:  #CFCFCF;
+  text-transform: uppercase;
+  line-height: 80px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  z-index: 4;
+}
+
+body.seventeen-a h1:first-child {
+  color: black;
+  z-index: 5;
+}
+
+body.seventeen-a header {
+  height: 60px;
+  width: 100%;
+  background-color: #E6E6E6;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+body.seventeen-a footer {
+  height: 60px;
+  width: 100%;
+  background-color: #E6E6E6;
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+
+
+
+/***********************STYLE SEVENTEEN-B***********************/
+
+body.seventeen-b {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  background-color: #E6E6E6;
+ 
+}
+
+
+body.seventeen-b .main {
+  position: fixed;
+   background: url("rainstorm landscape.jpg");
+  width: 100%;
+  top: 20px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+body.seventeen-b .main-text {
+  font-size: 50px;
+  font-weight: 700;
+  color: #E6E6E6;
+  color: black;
+  position: relative;
+  float: right;
+  top: 0px;
+  right: 0px;
+  width: 600px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-right: 15px;
+}
+
+body.seventeen-b .sidebar {
+  position: fixed;  
+  top: -30px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+  width: 600;
+  z-index: 2;
+}
+
+body.seventeen-b h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color:  black;
+  text-transform: uppercase;
+  line-height: 80px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
