@@ -2136,6 +2136,13 @@ body.eighteen #details h2{
     font-weight: 700; 
   }
 
+body.nineteen img {
+  position: fixed;
+  bottom: 20px;
+  left: 45px;
+  width: 140px;
+  height: auto;
+}
 
 
 
