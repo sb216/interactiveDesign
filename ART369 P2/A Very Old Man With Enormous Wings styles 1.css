@@ -2176,6 +2176,7 @@ body.twenty {
   -webkit-animation: animation 60s;
   animation: animation 60s;
   animation-iteration-count: 1; 
+  border: 20px solid #03070B;
 }
 
 
