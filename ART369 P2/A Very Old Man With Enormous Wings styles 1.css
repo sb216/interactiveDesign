@@ -1825,7 +1825,7 @@ body.seventeen-b {
   margin: 0px;
   padding: 0px;
   font-family: "Oswald", sans-serif;
-  background-color: #E6E6E6;
+  background-color: #D4D4D4;
  
 }
 
@@ -1844,10 +1844,9 @@ body.seventeen-b .main {
 
 
 body.seventeen-b .main-text {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
-  color: #E6E6E6;
-  color: black;
+  color: #D4D4D4;
   position: relative;
   float: right;
   top: 0px;
@@ -1855,7 +1854,14 @@ body.seventeen-b .main-text {
   width: 600px;
   text-transform: uppercase;
   text-align: left;
+  padding: 0px;
+  margin: 0px;
   padding-right: 15px;
+}
+
+body.seventeen-b .main-text p {
+  margin: 0px;
+  padding-top: 15px;
 }
 
 body.seventeen-b .sidebar {
