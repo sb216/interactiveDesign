@@ -2176,7 +2176,6 @@ body.twenty {
   -webkit-animation: animation 60s;
   animation: animation 60s;
   animation-iteration-count: 1; 
-  border: 20px solid #03070B;
 }
 
 
@@ -2190,9 +2189,17 @@ body.twenty {
   to {background-color: #CCCDCE;}
 }
 
+
 body.twenty .container {
-  width: 95%;
-  margin: 35px auto;
+  height: auto;
+  margin: 0px;
+  padding: 100px;
+  border: 30px solid #03070B;
+}
+
+
+body.twenty .clearfix {
+  overflow: hidden;
 }
 
 
@@ -2204,7 +2211,6 @@ body.twenty .sidebar {
   left: 80px;
   float: left;
   width: 300px;
-  padding: 30px;
 }
 
 
@@ -2230,15 +2236,16 @@ body.twenty .text {
   padding: 10px;
   text-align: right;
   position: relative;
-  top: 350px;
+  top: 100px;
   font-weight: 700;
+  float: right;
 
 }
 
 body.twenty .main-text {
   width: 900px;
-  float: right;
   color: #03070B;
+
 }
 
 
