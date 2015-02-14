@@ -2672,6 +2672,65 @@ body.twenty .main-text p {
 }
 
 
+ /***********************COVER TWENTY***********************/
+
+body.twentyC {
+  margin: 0px;
+  padding: 0px;
+  background-color: #03070B;
+  font-family: "Lato", sans-serif;
+  color: #CCCDCE; 
+  overflow-y: hidden; 
+}
+
+body.twentyC h1 {
+  font-size: 80px;
+  line-height: 70px;
+  transform: rotate(-45deg);
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body.twentyC #title1 {
+  position: absolute;
+  top: 500px;
+}
+
+body.twentyC #title2 {
+  position: absolute;
+  top: -165px;
+}
+
+body.twentyC p {
+  font-size: 25px;
+  transform: rotate(-45deg);
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 350px;
+  right: 400px;
+}
+
+body.twentyC .detail1 {
+  height: 30px;
+  width: 300px;
+  background-color: #CCCDCE; 
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+
+body.twentyC .detail2 {
+  height: 30px;
+  width: 600px;
+  background-color: #CCCDCE; 
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 70px;
+  right: 380px;
+}
+
 
 
 
