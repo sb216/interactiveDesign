@@ -1945,8 +1945,8 @@ body.seventeen-b h1 {
   body.eighteen #empty1 {
     width: 11.8%;
     height: 600px;
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
+ /*   border-bottom: 2px solid white;
+    border-right: 2px solid white;*/
     display: inline-block;
        background: url("rainstorm landscape.jpg");
     background-position: center;
@@ -1959,7 +1959,7 @@ body.seventeen-b h1 {
     color: white;
     text-align: left;
     position: relative;
-    left: -6px;
+    left: -4px;
     border-bottom: 2px solid white;
     border-right: 2px solid white;
     border-left: 2px solid white;
@@ -1973,7 +1973,7 @@ body.seventeen-b h1 {
     font-size: 50px;
     line-height: 45px;
     position: absolute;
-    bottom: 30px;
+    bottom: -30px;
     left: 40px;
     padding: 0px;
     margin: 0px;
@@ -1990,88 +1990,173 @@ body.eighteen #empty2 {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 300px;
     height: 200px;
     background-color: #c5d8d5;
      border-bottom: 2px solid white;
      margin: 0px;
      padding: 0px;
-     width: 11.8%;
+     width: 11.98%;
      height: 90px;
      vertical-align: top;
+     z-index: 2;
   
 
   }
-/*
-
-   body.eighteen #empty3 {
-    width: 58%;
-    height: 50px;
-    border-bottom: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    display: inline-block;
-    position: relative;
-    left: -13px;
-
-
-    padding: 0px;
-    margin: 0px;
-    background: url("rainstorm landscape.jpg");
-    vertical-align: top;
-
-
-  }*/
-
-  body.eighteen #details {
-    display: inline-block;
-
-  }
-
 
 body.eighteen #details h2{
-  transform: rotate(-90deg);
+/*    transform: rotate(-90deg);*/
+    width: 90%;
+    text-align: right;
+    position: relative;
+    right: 150px;
+    top: 200px;
+/*    line-height: 80px;*/
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: 700;
 
 
     
   }
 
 
-   /*body.eighteen #empty4 {
-    width: 54%;
-    height: 300px;
-    border: 2px solid white;
+   body.eighteen #details {
+    width: 20%;
+    height: 3150px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
     background-color: #c5d8d5;
     position: absolute;
-    right: 141px;
-    top: 100px;
+    right: 0px;
+    top: 700px;
     padding: 0px;
     margin: 0px;
     z-index: 2;
-  }*/
+  }
+
+
+   body.eighteen #empty3 {
+    width: 35%;
+    height: 625px;
+    background-color: #c5d8d5;
+    position: absolute;
+    left: 0px;
+    top: 2000px;
+    padding: 0px;
+    margin: 0px;
+    background: url("rainstorm landscape.jpg");
+  }
+
+
+
+body.eighteen #empty4 {
+    width: 30%;
+    height: 340px;
+    position: absolute;
+    right: 100px;
+    top: 3800px;
+    padding: 0px;
+    margin: 0px;
+    background: url("rainstorm landscape.jpg");
+  }
+
+
+body.eighteen #empty5 {
+    width: 48%;
+    height: 2000px;
+     border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    position: absolute;
+    left: 0px;
+    top: 4800px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+body.eighteen #empty6 {
+    width: 20%;
+    height: 1000px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    position: absolute;
+    left: 0px;
+    top: 6798px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #c5d8d5;
+  }
+
+  body.eighteen #empty7 {
+    width: 10%;
+    height: 1000px;
+    position: absolute;
+    right: 0px;
+    top: 9000px;
+    padding: 0px;
+    margin: 0px;
+    background: url("rainstorm landscape.jpg");
+  }
 
   body.eighteen .text {
-    display: inline-block;
     position: relative;
-    left: 500px;
+    left: 0px;
     top: 0px;
-    width: 50%;
     color: white;
     /*border-left: 2px solid white;
      border-top: 2px solid white;*/
     
     color: white;
-    padding: 10px; 
     background-color: #c5d8d5;
     text-align: left;
+        z-index: -1;
+
 
   }
 
-  body.eighteen .main-text {
-    width: 60%;
+  body.eighteen .main-text p {
     text-transform: lowercase;
     font-size: 20px;
-    color: white;
+    width: 60%;
+    z-index: -1;
+
+  }
+
+  body.eighteen .main-text p:first-child {
+      padding-top: 60px;
+  }
+
+
+  body.eighteen .main-text p{
+      padding-left: 30px;
+  }
+
+  body.eighteen .realign p {
+    padding: 0px;
+  }
+
+ body.eighteen .realign {
+    position: relative;
+    left: 500px;
+    width: 48%;
+
+  }
+
+ /* body.eighteen .realign2 {
+    position: relative;
+    left: 800px;
+    text-align: right;
+
+  }
+*/
+
+  body.eighteen .realign2 p {
+    position: relative;
+    left: 620px;
+    text-align: right;
+    width: 35%;
+
   }
 
 
