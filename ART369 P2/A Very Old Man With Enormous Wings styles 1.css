@@ -1693,53 +1693,59 @@ body.fifteen .main-text {
 body.sixteen {
   margin: 0px;
   padding: 0px;
-  font-family: "Abel", sans-serif;
-  background-color: #FEAF10;
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
 }
 
 body.sixteen .container {
   width: 95%;
-  border: 40px solid black;
-  margin: 35px auto;
+/*  border: 40px solid black;*/
+  margin: 0px auto;
 }
+
 
 body.sixteen .clearfix {
   overflow: auto;
-}
-
-body.sixteen .sidebar {
-  text-align: right;
-}
-
-body.sixteen #title {
-  color: white;
-  text-align: left;
-
-}
-
-body.sixteen h1 {
-  font-size: 130px;
-  line-height: 120px;
-  text-transform: uppercase;
-  padding: 0px;
-  margin: 0px;
-
 }
 
 
 body.sixteen .text {
   font-size: 16px;
   padding: 10px;
-  text-align: right;
-
+  text-align: justify;
 }
 
 body.sixteen .main-text {
-  width: 700px;
-  float: right;
-  color: white;
+  width: 1000px;
+  margin: 0px auto;
+  color: black;
   font-size: 24px;
+  font-weight: 200;
 }
+
+
+body.sixteen h1 {
+  font-size: 130px;
+  line-height: 130px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 200;
+  color: #FF7B00;
+
+}
+
+body.sixteen span {
+  font-weight: 700;
+  transition: all 0.4s ease;
+  background: none;
+}
+
+
+body.sixteen span:hover{
+  opacity: 0;
+}
+
 
 
 
