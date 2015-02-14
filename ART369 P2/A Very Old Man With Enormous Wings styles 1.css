@@ -238,8 +238,8 @@ body.two .details-text h2 {
 /***********************COVER TWO***********************/
 
 body.twoC {
-  background-color: white;
-/*  background-color: #3E3E40;*/
+/*  background-color: white;*/
+   background-color: #945D55;
   min-width: 100%;
   min-height: 100%;
   font-family: "Circular Medium", Helvetica, sans-serif;
@@ -250,38 +250,54 @@ body.twoC {
   overflow-y: hidden;
 }
 
+body.twoC .info {
+/*  border: 12px solid white;*/
+  width: 1220px;
+  margin: 20px auto;
+  margin-top: 80px;
+
+}
 
 body.twoC h1 {
-  font-size: 200px;
-  line-height: 150px;
-  position: absolute;
+  font-size: 60px;
+  line-height: 50px;
+  /*position: absolute;*/
  /* left: 350px;
   top: 70px;*/
-  top: -35px;
+ /* top: -35px;
   left: 250px;
   margin: 0px;
+  padding: 0px;*/
   padding: 0px;
   color: #3E3E40;
+  padding-top: 20px;
+  margin: 20px;
+  position: relative;
+  text-align: left;
 }
 
-body.twoC .detail {
-  height: 400px;
-  width: 400px;
-  border: 8px solid  #945D55;
+body.twoC img {
   position: absolute;
-  left: 40px;
-  top: 250px;
-  z-index: 3;
-
+  top: 270px;
+  left: 480px;
 }
+
+body.twoC span {
+  color: white;
+}
+
 
 body.twoC p {
-  color: #945D55;
+  color: #3E3E40;
   font-size: 30px;
   font-weight: 600;
-  position: absolute;
+ /* position: absolute;
   top: 20px;
-  left: 850px;
+  left: 850px;*/
+  padding: 0px;
+  margin: 0px;
+  padding-left: 20px;
+
 }
 
 /***********************STYLE THREE***********************/
