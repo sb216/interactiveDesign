@@ -707,6 +707,84 @@ body.seven .main-text p {
 
 
 
+/***********************STYLE SEVEN COVER***********************/
+body.sevenC {
+  background-color: #0495FF;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica", sans-serif;
+  height: 100%;
+}
+
+body.sevenC:before {
+  content: " ";
+  background-color: #0495FF;
+  height: 100%;
+  position: fixed;
+  width: 10%;
+  top: 0px;
+  bottom: 0px;
+}
+
+body.sevenC .sidebar {
+  transform: skewX(-5deg);
+  background-color: #0495FF;
+  height: 100%;
+  position: fixed;
+  width: 30%;
+  top: 0px;
+  left: 0px;
+  padding: 5% 5% 10% 14%;
+  margin: 0px;
+  color: #0495FF;
+  overflow: hidden;
+  z-index: 5;
+
+}
+
+body.sevenC #title {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 145px;
+  position: absolute;
+  left: 250px;
+  top: 38px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 110px;
+  text-transform: uppercase;
+  z-index: 5;
+
+}
+
+body.sevenC #alas {
+  color:  #FDA454;
+  z-index: -1;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 145px;
+  position: absolute;
+  left: 345px;
+  top: 375px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 110px;
+  text-transform: uppercase;
+
+}
+
+body.sevenC p {
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 610px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  z-index: 5;
+}
+
+
+
 /***********************STYLE EIGHT***********************/
 
 body.eight {
