@@ -455,6 +455,36 @@ body.four .empty {
 }
 
 
+/***********************COVER FOUR***********************/
+body.fourC {
+  margin: 0px;
+  padding: 0px;
+  background: url('rainstorm landscape.jpg')
+
+}
+
+body.fourC img {
+  padding: 0px;
+  margin: 0px auto;
+  margin-top: -365px;
+  margin-left: 7px;
+
+}
+
+body.fourC p {
+  font-family: 'Lato', sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  color: #E2E3E4;
+}
+
+
 /***********************STYLE FIVE***********************/
 
 
