@@ -482,6 +482,8 @@ body.fourC p {
   margin: 0px;
   padding: 0px;
   color: black;
+  letter-spacing: 2px;
+  text-rendering: optimizelegibility;
 }
 
 
