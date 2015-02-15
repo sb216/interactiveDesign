@@ -459,7 +459,7 @@ body.four .empty {
 body.fourC {
   margin: 0px;
   padding: 0px;
-  background: url('rainstorm landscape.jpg')
+/*  background: url('rainstorm landscape.jpg')*/
 
 }
 
@@ -481,7 +481,7 @@ body.fourC p {
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;
-  color: #E2E3E4;
+  color: black;
 }
 
 
