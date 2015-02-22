@@ -2688,6 +2688,14 @@ body.fourteen .text {
 	font-size: 11px;
 }
 
+/***********************COVER FOURTEEN***********************/
+
+body.fourteenC {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Arial", sans-serif;
+}
+
 
 
 /***********************STYLE FIFTEEN***********************/
@@ -2778,7 +2786,219 @@ body.fifteen .main-text {
 	padding-bottom: 50px;
 
 }
+/***********************COVER FIFTEEN***********************/
+body.fifteenC {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 
+}
+
+body.fifteenC .info {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+body.fifteenC h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+body.fifteenC img {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  width: 130px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+body.fifteenC a {
+  text-decoration: none;
+  outline: 0;
+  -webkit-animation: animationa 25s;
+  animation: animationa 25s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationa {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationa {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC img:hover {
+  bottom: 50px;
+}
+
+body.fifteenC #one {
+  -webkit-animation: animationone 5s;
+  animation: animationone 5s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationone {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationone {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC #two {
+  -webkit-animation: animationtwo 15s;
+  animation: animationtwo 15s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationtwo {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationtwo {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC #three {
+  -webkit-animation: animationthree 10s;
+  animation: animationthree 10s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationthree {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationthree {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+body.fifteenC #four {
+  -webkit-animation: animationfour 5s;
+  animation: animationfour 5s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationfour {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationfour{
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC #five {
+  -webkit-animation: animationfive 15s;
+  animation: animationfive 15s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationfive {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationfive {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC #six {
+  -webkit-animation: animationsix 10s;
+  animation: animationsix 10s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationsix{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationsix {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body.fifteenC #seven{
+  -webkit-animation: animationseven 20s;
+  animation: animationseven 20s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationseven {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationseven {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+body.fifteenC #eight {
+  -webkit-animation: animationeight 15s;
+  animation: animationeight 15s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationeight {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationeight{
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+body.fifteenC p {
+  -webkit-animation: animationp 25s;
+  animation: animationp 25s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes animationp {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationp{
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 
 /***********************STYLE SIXTEEN***********************/
@@ -3560,7 +3780,7 @@ body.twenty {
 }
 
 
-@-webkit-keyframes animation {
+@-webkit-keyframes animation  {
   from {background-color: #03070B;}
   to {background-color: #CCCDCE;}
 }
