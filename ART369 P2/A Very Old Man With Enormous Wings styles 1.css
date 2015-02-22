@@ -421,6 +421,82 @@ body.three .text {
 	font-weight: 400;
 }
 
+/***********************COVER THREE***********************/
+
+body.threeC {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body.threeC #backgroundimages {
+  padding: 0px;
+  margin: 0px;
+  /*padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 30px;*/
+  position: absolute;
+/*  top: -40px;
+  left: 45px;*/
+  top: 20px;
+  left: 45px;
+}
+
+body.threeC #backgroundchange {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  transition: .5s;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body.threeC li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+body.threeC a {
+  text-decoration: none;
+  outline: 0;
+}
+
+body.threeC li:first-child:hover ~ #backgroundchange{
+  background-color: #7BA7BA;
+}
+
+body.threeC .info {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body.threeC h1 {
+  font-size: 96px;
+  font-weight: 300;
+  line-height: 96px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body.threeC p {
+  font-size: 25px;
+  padding-top: 51px;
+
+}
+
 
 /***********************STYLE FOUR***********************/
 
