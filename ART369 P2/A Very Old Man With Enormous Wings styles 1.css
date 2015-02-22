@@ -914,7 +914,26 @@ body.sixC {
   background-position: 0% 10%;
   background-size: 2300px auto;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color:  #EFEFEF;
+  overflow: hidden;
+}
+
+
+
+body.sixC #text {
+  position: relative;
+  left: -220px;
+  top: -87px;
+/*  margin-left: 145px;*/
+  width: 600px;
+  line-height: 1.6em;
+  font-size: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 30px;
+
 }
 
 body.sixC .info {
@@ -925,19 +944,88 @@ body.sixC .info {
   position: absolute;
   top: 0px;
   right: 13%;
-  background-color: #EFEFEF;
+  border: 10px solid #EFEFEF;
   text-align: right;
   vertical-align: baseline;
   padding: 20px;
+  overflow: hidden;
 
 }
 
+body.sixC .sidebar {
+  width: 120px;
+  float: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body.sixC .sidebar p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 19px;
+  transform: rotate(-90deg);
+  width: 700px;
+  position: absolute;
+  text-transform: lowercase;
+  top: 260px;
+  left: -300px;
+}
+
+/*
+body.sixC .sidebar-contents {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 19px;
+  transform: rotate(-90deg);
+  width: 700px;
+  position: absolute;
+  text-transform: lowercase;
+  top: 200px;
+  left: 0px;
+
+}*/
+
+body.sixC #appear {
+  opacity: 0;
+  position: absolute;
+  top: 80px;
+  right: 101.5px;
+  transition: .25s;
+  z-index: 5;
+
+}
+
+body.sixC #appear:hover {
+  opacity: 1;
+
+}
+
+
+
 body.sixC h1 {
-  font-size: 42px;
+  font-size: 100px;
   position: relative;
-  top: 180px;
+  top: -80px;
+  right: -95px;
   padding: 0px;
   margin: 0px;
+
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.15em;
+/*  margin: 0px 0px 55px;
+  left: auto;
+  top: 85px;
+  right: 100px;
+  position: absolute;*/
+  letter-spacing: 1px;
+  text-align: right;
 }
 
 body.sixC p {
@@ -950,11 +1038,13 @@ body.sixC p {
 
 body.sixC a {
   text-decoration: none;
-  color: white;
+  color:  #EFEFEF;
   outline: 0;
 }
-
-body.sixC #title ~ .info 
+/*
+body.sixC a:hover {
+  text-decoration: underline;
+}*/
 
 
 
