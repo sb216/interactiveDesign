@@ -3351,8 +3351,210 @@ body.seventeen-a footer {
   left: 0px;
 }
 
+/***********************COVER SEVENTEEN-A***********************/
+
+body.seventeenC {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  background-color: #E6E6E6;
+ 
+}
 
 
+body.seventeenC #readme {
+  position: fixed;
+
+  width: 100%;
+  top: 20px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body.seventeenC a {
+  text-decoration: underline;
+  color: black;
+  outline: 0;
+}
+
+
+
+body.seventeenC .info {
+  position: fixed;  
+  top: -28px;
+  left: 0px;
+  height: 615px;
+  padding: 0px;
+  margin: 0px;
+  width: 600px;
+  z-index: 2;
+}
+
+
+
+
+body.seventeenC #readme h1 {
+  font-size: 43px;
+  font-weight: 700;
+  /*color: #E6E6E6;*/
+  color: black;
+  position: relative;
+  float: right;
+  top: 0px;
+  right: 0px;
+  width: 600px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-right: 15px;
+  padding-top: 10px;
+
+   -webkit-animation: animationh 0.5s;
+  animation: animationh 0.5s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 6s; 
+  animation-delay: 6s;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animationh {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationh {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+body.seventeenC h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 80px;
+  color:  #CFCFCF;
+  text-transform: uppercase;
+  line-height: 80px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+/*  z-index: 4; */
+}
+
+
+body.seventeenC .info h1:first-child {
+  color: black;
+  z-index: 5;
+
+   -webkit-animation: animationnone 0.1s;
+  animation: animationnone 0.1s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 1s; 
+  animation-delay: 1s;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animationnone {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationnone {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+body.seventeenC .info h1:nth-child(2){
+  -webkit-animation: animationntwo 0.1s;
+  animation: animationntwo 0.1s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animationntwo {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationntwo {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+
+
+body.seventeenC .info h1:nth-child(3){
+  -webkit-animation: animationnthree 0.1s;
+  animation: animationnthree 0.1s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 3s; 
+  animation-delay: 3s;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animationnthree {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationnthree {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+body.seventeenC .info h1:nth-child(4){
+  -webkit-animation: animationnfour 0.1s;
+  animation: animationnfour 0.1s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 4s; 
+  animation-delay: 4s;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animationnfour {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes animationnfour {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+
+body.seventeenC header {
+  height: 60px;
+  width: 100%;
+  background-color: #E6E6E6;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+body.seventeenC footer {
+  height: 60px;
+  width: 100%;
+  background-color: #E6E6E6;
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
 
 
 /***********************STYLE SEVENTEEN-B***********************/
