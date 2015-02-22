@@ -1052,7 +1052,7 @@ body.seven .main-text p {
 
 
 
-/***********************STYLE SEVEN COVER***********************/
+/***********************COVER SEVEN***********************/
 body.sevenC {
   background-color: #0495FF;
   margin: 0px;
@@ -1171,6 +1171,7 @@ body.eight h1 {
 	line-height: 60px;
 	letter-spacing: 4px;
 	color: #525251;
+  color: #E6B800;
 	
 }
 
@@ -1211,7 +1212,65 @@ body.eight .main-text p {
 }
 
 
+/***********************COVER EIGHT***********************/
 
+body.eightC {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #525251;
+  color: #E6B800;
+}
+
+body.eightC .circle {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  z-index: -1;
+  border-radius: 50%;
+  /*border: 8px solid #525251;*/
+  border: 8px solid #E6B800;
+  height: 598px;
+  width: 598px;
+  margin: 0px auto;
+  margin-top: 30px;
+  overflow: auto;
+
+}
+
+body.eightC a {
+  outline: 0;
+  text-decoration: none;
+  color: #525251;
+  color: #E6B800;
+}
+
+body.eightC a:hover {
+  font-weight: 400;
+}
+/*
+body.eightC img {
+  margin: 0px auto;
+  padding: 30px;
+}*/
+
+
+body.eightC h1 {
+  font-family: "Roboto Slab", serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 110px;
+  font-weight: 100;
+  line-height: 90px;
+  padding-top: 55px;
+  letter-spacing: -3px;
+}
 
 /***********************STYLE NINE***********************/
 
