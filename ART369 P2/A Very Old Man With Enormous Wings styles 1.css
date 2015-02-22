@@ -2502,7 +2502,61 @@ body.thirteen .main-text p {
 
 
 
+/***********************COVER THIRTEEN***********************/
 
+body.thirteenC {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Raleway Dots", sans-serif;
+  overflow: hidden;
+}
+
+body.thirteenC h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 40px;
+  padding: 0px;
+  margin: 0px;
+  color: #577A99;
+  transition: .25s;
+}
+
+body.thirteenC .info {
+    width: 700px;
+    margin: 0px auto;
+    text-align: center;
+/*    background: #577A99;*/
+}
+
+body.thirteenC #special { 
+  line-height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 300px;
+  width: 700px;
+  color: #577A99;
+}
+
+body.thirteenC h1 span {
+  margin-top: 100px;
+}
+
+
+body.thirteenC a {
+  text-decoration: none;
+  color: #577A99;
+  outline: 0;
+}
+
+
+
+body.thirteenC a:hover {
+  color: black;
+}
+
+body.thirteenC .fade:hover ~ h1 {
+  opacity: 0;
+}
 
 
 
