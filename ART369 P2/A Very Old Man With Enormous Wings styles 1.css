@@ -3411,11 +3411,11 @@ body.seventeenC #readme h1 {
   padding-right: 15px;
   padding-top: 10px;
 
-   -webkit-animation: animationh 1s;
-  animation: animationh 1s;
+   -webkit-animation: animationh 2s;
+  animation: animationh 2s;
   animation-iteration-count: 1; 
-  -webkit-animation-delay: 5s; 
-  animation-delay: 5s;
+  -webkit-animation-delay: 4s; 
+  animation-delay: 4s;
   animation-fill-mode:backwards;
 }
 
