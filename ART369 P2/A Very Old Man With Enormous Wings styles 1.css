@@ -2066,6 +2066,7 @@ body.twelve h1 {
 	margin: 0px;
 	padding: 0px;
 	line-height: 1em;
+  padding-bottom: 7px;
 }
 
 body.twelve h2 {
@@ -2142,6 +2143,79 @@ body.twelve .main-text p {
 	font-weight: 700;
 }
 
+
+/***********************COVER TWELVE***********************/
+
+body.twelveC{
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body.twelveC li:first-child {
+  font-size: 112px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 112px;
+  position: relative;
+  top: 183px;
+  left: 70px;
+  font-weight: 100;
+}
+
+body.twelveC span {
+    background-color: #00C95E; 
+    margin-top: 30px;
+  
+}
+
+body.twelveC li {
+  list-style: none;
+  width: 1100px;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: white;
+  position: relative;
+  top: 190px;
+  left: 150px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+body.twelveC a {
+  text-decoration: none;
+  color: white;
+  outline: 0;
+}
+
+body.twelveC #background {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  transition: 1s;
+  z-index: -1; 
+  width: 1300px;
+}
+
+
+
+
+body.twelveC li:first-child:hover ~ #background {
+  background-color: #00C95E;
+}
+
+body.twelveC a:hover {
+  font-weight: 400;
+}
 
 /***********************STYLE THIRTEEN***********************/
 
