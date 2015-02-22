@@ -1415,6 +1415,19 @@ body.nine span {
 
 }
 
+
+body.nine video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+
+  min-width: 100%; min-height: 100%;
+
+  width: auto; height: auto; z-index: -100;
+
+  background: url(clouds.jpg) no-repeat;
+
+  background-size: cover; 
+}
+
 /***********************COVER NINE***********************/
 
 body.nineC {
@@ -1509,6 +1522,18 @@ body.nineC .main {
 
 
 }
+/*
+body.nineC video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+
+  min-width: 100%; min-height: 100%;
+
+  width: auto; height: auto; z-index: -100;
+
+  background: url(clouds.jpg) no-repeat;
+
+  background-size: cover; 
+}*/
 
 body.nineC #teaser {
   position: absolute;
@@ -1936,7 +1961,54 @@ body.eleven .details-contents p {
 	
 }
 
+/***********************COVER ELEVEN***********************/
 
+body.elevenC {
+  margin: 0px;
+  padding: 0px;
+  /*background: url('large-wings-circle.png'), url('rainstorm landscape.jpg');
+  background-size: 1300px auto, auto auto;
+  background-position: 60% 9%, 20% 20%;*/
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+body.elevenC h1 {
+  /*font-weight: 100;
+  line-height: 30px;
+  font-size: 30px;*/
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 300px;
+
+}
+
+body.elevenC .info {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 80px;
+
+}
+
+body.elevenC a {
+  text-decoration: none;
+  color: black;
+  outline: 0;
+}
+
+body.elevenC p {
+   font-weight: 100;
+   font-size: 60px;
+   color: black;
+   padding: 0px;
+   margin: 0px;
+   position: absolute; 
+   top: 75px;
+   left: 490px;
+   line-height: 900px;
+}
 
 /***********************STYLE TWELVE***********************/
 
