@@ -1226,7 +1226,8 @@ body.eightC {
   letter-spacing: 2px;
   color: #525251;
   color: #E6B800;
-}
+
+  }
 
 body.eightC .circle {
   text-align: center;
@@ -1249,11 +1250,45 @@ body.eightC a {
   text-decoration: none;
   color: #525251;
   color: #E6B800;
+  transition: 1s;
+}
+
+body.eightC img {
+  opacity: 0;
+  transition: 1s;
+  position: absolute;
+  top: 140px;
+  left: 445px;
+  width: 400px;
+  height: auto;
+
+}
+
+body.eightC p {
+  opacity: 1;
+  transition: 1s;
 }
 
 body.eightC a:hover {
-  font-weight: 400;
+/*  font-weight: 400;*/
+  opacity: 0;
+ 
 }
+
+body.eightC #title:hover ~ p {
+/*  font-weight: 400;*/
+  opacity: 0;
+ 
+}
+
+body.eightC #title:hover + img {
+  opacity: 1;
+
+}
+
+/*body.eightC .circle:hover {
+   background: url("rainstorm landscape.jpg");
+}*/
 /*
 body.eightC img {
   margin: 0px auto;
