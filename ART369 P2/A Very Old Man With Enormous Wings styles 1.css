@@ -724,6 +724,61 @@ body.five .main-text p {
 body.fiveC {
   margin: 0px;
   padding: 0px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: rgba(242, 242, 242, 0.9);
+}
+
+body.fiveC h1 {
+  font-family: 'Comfortaa', cursive;
+  text-transform: lowercase;
+  font-size: 140px;
+  line-height: 190px;
+  text-align: justify;
+  padding: 0px;
+  margin: 0px;
+  color: rgba(242, 242, 242, 0.9);
+
+
+}
+
+body.fiveC span {
+  display: inline-block;
+  background-image: url("rainstorm landscape.jpg");
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+body.fiveC img {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+body.fiveC a {
+  outline: 0;
+  text-decoration: none;
+}
+
+body.fiveC img:hover {
+  margin-bottom: 20px;
+  transition: .5s;
+}
+
+body.fiveC .info {
+  max-width: 1200px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 130px;
+  padding: 30px;
+
+}
+
+body.fiveC p {
+  font-size: 15px;
 }
 
 
