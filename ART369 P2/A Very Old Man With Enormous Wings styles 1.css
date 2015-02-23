@@ -1193,14 +1193,43 @@ body.sevenC .sidebar {
   position: fixed;
   width: 30%;
   top: 0px;
-  left: 0px;
+/*  left: 0px;*/
   padding: 5% 5% 10% 14%;
   margin: 0px;
   color: #0495FF;
   overflow: hidden;
   z-index: 5;
-
+  -webkit-animation: animationnskew 2s;
+  animation: animationnskew 2s;
+  animation-iteration-count: 1; 
+  -webkit-animation-delay: 1s; 
+  animation-delay: 1s;
+  animation-fill-mode:backwards;
 }
+
+
+@-webkit-keyframes animationnskew {
+  from {left: -150px;}
+  to {left: 100px;}
+}
+
+@keyframes animationnskew {
+  from {left: -150px;}
+  to {left: 100px;}
+}
+
+
+body.sevenC a {
+  text-decoration: none;
+  outline: 0;
+  color: #FDA454 ;
+}
+
+
+
+
+
+
 
 body.sevenC #title {
   font-family: "Roboto Condensed", sans-serif;
@@ -1213,7 +1242,7 @@ body.sevenC #title {
   padding: 0px;
   line-height: 110px;
   text-transform: uppercase;
-  z-index: 5;
+/*  z-index: 5;*/
 
 }
 
