@@ -1222,7 +1222,11 @@ body.sevenC .sidebar {
 body.sevenC a {
   text-decoration: none;
   outline: 0;
-  color: #FDA454 ;
+  color: white ;
+}
+
+body.sevenC span {
+  color: #FDA454;
 }
 
 
