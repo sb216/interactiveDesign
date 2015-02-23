@@ -1019,7 +1019,7 @@ body.sixC .sidebar-contents {
 body.sixC #appear {
   opacity: 0;
   position: absolute;
-  top: 80px;
+  top: 81px;
   right: 101.5px;
   transition: .25s;
   z-index: 5;
