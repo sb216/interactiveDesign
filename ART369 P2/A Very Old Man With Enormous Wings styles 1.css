@@ -3260,6 +3260,12 @@ body.sixteenC h1 {
   z-index: -1;
 }
 
+body.sixteenC a {
+  text-decoration: none;
+  color:#FF7B00;
+  outline: 0;
+}
+
 body.sixteenC span {
   color: #FF7B00;
 }
