@@ -3591,8 +3591,8 @@ body.seventeenC #readme h1 {
    -webkit-animation: animationh 2s;
   animation: animationh 2s;
   animation-iteration-count: 1; 
-  -webkit-animation-delay: 4s; 
-  animation-delay: 4s;
+  -webkit-animation-delay: 6s; 
+  animation-delay: 6s;
   animation-fill-mode:backwards;
 }
 
