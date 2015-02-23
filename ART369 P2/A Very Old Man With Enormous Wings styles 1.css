@@ -313,37 +313,52 @@ body.twoC {
   overflow-y: hidden;
 }
 
+body.twoC ul {
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+
+
+}
+
 body.twoC .info {
-/*  border: 12px solid white;*/
-  width: 1220px;
-  margin: 20px auto;
-  margin-top: 80px;
+  width: 800px;
+  position: absolute;
+  top: 220px;
+  left: 240px;
+  background: #945D55;
+  height: 190px;
+  text-align: center;
 
 }
 
 body.twoC h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 50px;
-  /*position: absolute;*/
- /* left: 350px;
-  top: 70px;*/
- /* top: -35px;
-  left: 250px;
-  margin: 0px;
-  padding: 0px;*/
   padding: 0px;
-  color: #3E3E40;
-  padding-top: 20px;
-  margin: 20px;
-  position: relative;
-  text-align: left;
+  margin: 0px;
+  margin-top: 35px;
+  color: white;
+  font-weight: 400;
+  
 }
 
-body.twoC img {
+
+body.twoC a {
+  text-decoration: none;
+  color: white;
+  outline: 0;
+}
+
+body.twoC a:hover {
+  font-weight: 600;
+}
+
+/*body.twoC img {
   position: absolute;
   top: 270px;
   left: 480px;
-}
+}*/
 
 body.twoC span {
   color: white;
@@ -351,16 +366,18 @@ body.twoC span {
 
 
 body.twoC p {
-  color: #3E3E40;
-  font-size: 30px;
-  font-weight: 600;
- /* position: absolute;
-  top: 20px;
-  left: 850px;*/
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
   padding: 0px;
   margin: 0px;
   padding-left: 20px;
 
+}
+
+body.twoC li {
+  list-style: none;
+  display: inline-block;
 }
 
 /***********************STYLE THREE***********************/
