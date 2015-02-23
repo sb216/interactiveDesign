@@ -3266,6 +3266,10 @@ body.sixteenC a {
   outline: 0;
 }
 
+body.sixteenC a:hover {
+  font-weight: 400;
+}
+
 body.sixteenC span {
   color: #FF7B00;
 }
