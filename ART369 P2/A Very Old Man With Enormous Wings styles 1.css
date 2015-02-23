@@ -4332,8 +4332,8 @@ body.twenty {
   background-color: #CCCDCE;
   font-family: "Lato", sans-serif;
   color: white;
-  -webkit-animation: animation 60s;
-  animation: animation 60s;
+  -webkit-animation: animation 40s;
+  animation: animation 40s;
   animation-iteration-count: 1; 
 }
 
