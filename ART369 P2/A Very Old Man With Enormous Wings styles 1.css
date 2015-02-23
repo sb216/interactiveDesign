@@ -2784,6 +2784,75 @@ body.fourteenC {
   padding: 0px;
   margin: 0px;
   font-family: "Arial", sans-serif;
+  font-size: 11px;
+  text-transform: lowercase;
+  background: url("rainstorm landscape yellow.jpg");
+  color: white;
+}
+
+body.fourteenC header {
+    width: 920px;
+    padding: 0px;
+    margin: 0px auto;
+    margin-top: 70px;
+    border-bottom: 1px solid white;
+    line-height: 0px;
+
+
+}
+
+body.fourteenC .teaser {
+  width: 920px;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+body.fourteenC .teaser p{
+  width: 215px;
+  position: absolute;
+  margin-top: 65px;
+  text-transform: none;
+  line-height: 17px;
+
+}
+
+body.fourteenC .info {
+  width: 920px;
+  margin: 0px auto;
+}
+
+body.fourteenC img {
+  height: 25px;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 7px;
+/*  padding-bottom: 7px;
+  position: absolute;
+  top: 44px;
+  left: 180px;*/
+}
+
+body.fourteenC h1 {
+  font-size: 11px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+
+
+}
+
+
+body.fourteenC p {
+  font-size: 11px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body.fourteenC a {
+  text-decoration: none; 
+  color: white;
 }
 
 
