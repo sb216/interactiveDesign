@@ -4036,8 +4036,140 @@ body.eighteen #empty6 {
 
   }
 
+    /***********************COVER EIGHTEEN***********************/
+ 
+ body.eighteenC {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    /*background-color: #FF5050;*/
+   /* background-color: #FFEF99;*/
+   /*background-color: #c5d8d5;*/
+   overflow: hidden;
+ }
+
+/* body.eighteenC .empty1 {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 320px;
+     border-top: 20px solid #c5d8d5;
+     border-right: 20px solid #c5d8d5;
+     margin: 0px;
+     padding: 0px;
+     width: 11.98%;
+     vertical-align: top;
+     z-index: 2;
+     background: white
+ }*/
+
+ body.eighteenC .empty2 {
+   width: 21.5%;
+    height: 293px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    border-bottom: 15px solid #c5d8d5;
+    display: inline-block;
+    vertical-align: top;
+ }
+
+  body.eighteenC .empty1 {
+    width: 60%;
+    height: 80px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    left: 971px;
+    top: 550px;
+    border-bottom: 8px solid #c5d8d5;
+    border-left: 8px solid #c5d8d5;
+ }
+
+ /*body.eighteenC .empty3 {
+  border-top: 20px solid #c5d8d5;
+  border-left: 20px solid #c5d8d5;
+ width: 64.4%;
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  left: 450px;
 
 
+ }*/
+
+ body.eighteenC .info {
+  width: 800px;
+  margin: 0px auto;
+  top: -150px;
+ }
+
+ body.eighteenC a {
+  text-decoration: none;
+  color: #c5d8d5;
+  outline: 0;
+ }
+
+ body.eighteenC h1 {
+  font-size: 100px;
+  color: #c5d8d5;
+  line-height: 100px;
+  padding: 0px;
+  margin: 0px;
+
+ }
+
+ body.eighteenC #one {
+  transform: rotate(-90deg);
+  position: relative;
+
+  top: 120px;
+  width: 200px;
+  line-height: 80px;
+ }
+
+
+body.eighteenC #two {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  width: 200px;
+ }
+
+ body.eighteenC #three {
+  position: relative;
+  left: 250px;
+  top: -30px;
+  width: 680px;
+  line-height: 80px;
+
+
+ }
+
+  /*body.eighteenC #four {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  font-size: 120px;
+ }*/
+
+ body.eighteenC #author {
+  position: relative;
+  left: 250px;
+  top: -50px;
+  width: 680px;
+  font-size: 50px
+
+ }
+
+ body.eighteenC #three a {
+    color: black;
+ }
   /***********************STYLE NINETEEN***********************/
 
   body.nineteen {
