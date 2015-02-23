@@ -4496,6 +4496,12 @@ body.twentyC .detail2 {
   right: 380px;
 }
 
+body.twentyC a {
+  text-decoration: none;
+  color: #CCCDCE;
+  outline: 0;
+}
+
 
 
 
