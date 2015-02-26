@@ -789,7 +789,7 @@ body.fiveC a {
 
 body.fiveC img:hover {
   margin-bottom: 20px;
-  transition: .5s;
+  transition: .5s ease-in-out;
 }
 
 body.fiveC .info {
