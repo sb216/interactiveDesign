@@ -1419,13 +1419,11 @@ body.eightC p {
 }
 
 body.eightC a:hover {
-/*  font-weight: 400;*/
   opacity: 0;
  
 }
 
 body.eightC #title:hover ~ p {
-/*  font-weight: 400;*/
   opacity: 0;
  
 }
@@ -1435,14 +1433,6 @@ body.eightC #title:hover + img {
 
 }
 
-/*body.eightC .circle:hover {
-   background: url("rainstorm landscape.jpg");
-}*/
-/*
-body.eightC img {
-  margin: 0px auto;
-  padding: 30px;
-}*/
 
 
 body.eightC h1 {
