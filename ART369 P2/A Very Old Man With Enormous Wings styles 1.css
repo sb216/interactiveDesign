@@ -3033,7 +3033,7 @@ body.fifteenC img {
 
 
 
-body.fifteenC a {
+body.fifteenC .navappear {
   text-decoration: none;
   outline: 0;
   -webkit-animation: animationa 25s;
