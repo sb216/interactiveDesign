@@ -1224,13 +1224,13 @@ body.sevenC .sidebar {
 }
 
 
-body.sevenC a {
+body.sevenC #sevenClink {
   text-decoration: none;
   outline: 0;
   color: white ;
 }
 
-body.sevenC a span {
+body.sevenC #sevenClink span {
   color: #FDA454;
 }
 
@@ -3019,6 +3019,15 @@ body.fifteenC h1 {
   margin: 0px;
   font-size: 70px;
   line-height: 70px;
+
+}
+
+body.fifteenC #two {
+  letter-spacing: 2px;
+}
+
+body.fifteenC #one {
+  letter-spacing: -4px;
 }
 
 body.fifteenC img {
@@ -3033,7 +3042,7 @@ body.fifteenC img {
 
 
 
-body.fifteenC .navappear {
+body.fifteenC .imagehover {
   text-decoration: none;
   outline: 0;
   -webkit-animation: animationa 25s;
@@ -4302,8 +4311,9 @@ body.eighteenC #two {
     vertical-align: top;
     padding: 0px;
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 70px;
     margin: 0px;
+    line-height: 14.5px;
 
   }
 
@@ -4417,6 +4427,7 @@ body.twenty .container {
   margin: 0px;
   padding: 100px;
   border: 30px solid #03070B;
+  border-top: 50px solid #03070B;
 }
 
 
@@ -4614,7 +4625,9 @@ nav:hover .navappear {
 
 body.twoC nav, body.two nav, body.sixC nav,
 body.sevenC nav, body.nineC nav, body.tenC nav,
-body.fourteenC nav, body.twentyC nav {
+body.fourteenC nav, body.twentyC nav, body.five nav, body.seven nav,
+body.nine nav, body.ten nav, body.eleven nav,  body.twelve nav, 
+body.thirteen nav, body.twenty nav {
   position: fixed;
   right: 25px;
   top: 10px;
@@ -4629,7 +4642,10 @@ body.fourteenC nav, body.twentyC nav {
 
 body.twoC .hoverbutton, body.two .hoverbutton, body.sixC .hoverbutton,
 body.sevenC .hoverbutton, body.nineC .hoverbutton, body.tenC .hoverbutton,
-body.fourteenC .hoverbutton, body.twentyC .hoverbutton {
+body.fourteenC .hoverbutton, body.twentyC .hoverbutton, body.five .hoverbutton,
+body.seven .hoverbutton, body.nine .hoverbutton,  body.ten .hoverbutton,
+body.eleven .hoverbutton, body.twelve .hoverbutton, body.thirteen .hoverbutton,
+body.twenty .hoverbutton  {
   border-radius: 50%;
   margin: 0px auto;
   padding: 0px;
@@ -4643,7 +4659,10 @@ body.fourteenC .hoverbutton, body.twentyC .hoverbutton {
 
 body.twoC .navappear, body.two .navappear, body.sixC .navappear,
 body.sevenC .navappear, body.nineC .navappear, body.tenC .navappear,
-body.fourteenC .navappear, body.twentyC .navappear {
+body.fourteenC .navappear, body.twentyC .navappear, body.five .navappear,
+body.seven .navappear, body.nine .navappear, body.ten .navappear,
+body.eleven .navappear, body.twelve .navappear, body.thirteen .navappear,
+body.twenty .navappear {
   opacity: 0;
   transition: .5s;
   text-decoration: none;
@@ -4658,7 +4677,10 @@ body.fourteenC .navappear, body.twentyC .navappear {
 
 body.twoC .home, body.two .home, body.sixC .home,
 body.sevenC .home, body.nineC .home, body.tenC .home,
-body.fourteenC .home, body.twentyC .home {
+body.fourteenC .home, body.twentyC .home, body.five .home,
+body.seven .home, body.nine .home, body.ten .home,
+body.eleven .home, body.twelve .home, body.thirteen .home,
+body.twenty .home  {
   font-size: 12px;
   text-transform: uppercase;
   color: white;
@@ -4669,7 +4691,11 @@ body.fourteenC .home, body.twentyC .home {
 
 body.twoC nav:hover .navappear, body.two nav:hover .navappear, body.sixC nav:hover .navappear,
 body.sevenC nav:hover .navappear, body.nineC nav:hover .navappear, body.tenC nav:hover .navappear,
-body.fourteenC nav:hover .navappear, body.twentyC nav:hover .navappear {
+body.fourteenC nav:hover .navappear, body.twentyC nav:hover .navappear, 
+body.five nav:hover .navappear, body.seven nav:hover .navappear, 
+body.nine nav:hover .navappear, body.ten nav:hover .navappear,
+body.eleven nav:hover .navappear, body.twelve nav:hover .navappear,
+body.thirteen nav:hover .navappear, body.twenty nav:hover .navappear  {
   opacity: 1; 
   color: white;
 }
