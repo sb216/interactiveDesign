@@ -123,6 +123,7 @@ body.one .text {
 	letter-spacing: 1px;
 	margin: 0px 0px 20px;
 	font-weight: 300;
+  margin-bottom: 200px;
 }
 
 
@@ -627,9 +628,14 @@ body.fourC {
 body.fourC img {
   padding: 0px;
   margin: 0px auto;
-  margin-top: -365px;
+  margin-top: -24px;
+  transition: .5s;
   
 
+}
+
+body.fourC img:hover {
+  opacity: .2;
 }
 
 body.fourC p {
