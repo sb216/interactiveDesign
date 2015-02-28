@@ -2169,6 +2169,7 @@ body.elevenC a {
   text-decoration: none;
   color: black;
   outline: 0;
+  z-index: 10;
 }
 
 body.elevenC p {
@@ -2181,6 +2182,10 @@ body.elevenC p {
    top: 75px;
    left: 490px;
    line-height: 900px;
+}
+
+body.elevenC a:hover  {
+  color: #5A5A5A;
 }
 
 /***********************STYLE TWELVE***********************/
