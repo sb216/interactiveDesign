@@ -146,6 +146,16 @@ header h1 {
 
 }
 
+img {
+	width: 45px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 80px;
+	left: 1085px;	
+}
+
 #project h1 {
 	z-index: 20;
 }
@@ -164,7 +174,7 @@ a:hover {
 
 
 
-#homepage:hover + p {
+#homepage:hover ~ p {
 	opacity: 1;
 }
 
