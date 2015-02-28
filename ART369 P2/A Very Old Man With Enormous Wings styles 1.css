@@ -4773,6 +4773,7 @@ body.fourteenC .source:hover, body.twentyC .source:hover, body.five .source:hove
 body.seven .source:hover, body.nine .source:hover, body.ten .source:hover,
 body.eleven .source:hover, body.twelve .source:hover, body.thirteen .source:hover,
 body.twenty .source:hover {
+   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
@@ -4784,6 +4785,7 @@ body.five nav:hover .navappear, body.seven nav:hover .navappear,
 body.nine nav:hover .navappear, body.ten nav:hover .navappear,
 body.eleven nav:hover .navappear, body.twelve nav:hover .navappear,
 body.thirteen nav:hover .navappear, body.twenty nav:hover .navappear  {
+   font-family: "Lato", sans-serif;
   opacity: 1; 
   color: white;
 }
