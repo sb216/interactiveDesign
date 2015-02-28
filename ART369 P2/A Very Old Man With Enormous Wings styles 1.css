@@ -4587,7 +4587,7 @@ nav {
   width: 10px;
   height: 10px;
   margin-top: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   position: fixed;
   right: 42px;
 
@@ -4596,8 +4596,9 @@ nav {
 
 .navinfo {
   position: fixed; 
-  top: 40px;
+  top: 32px;
   right: 38px;
+  font-family: "Lato", sans-serif;
 }
 
 
@@ -4639,8 +4640,9 @@ nav {
 .home, .source {
   font-size: 12px;
   text-transform: uppercase;
+  font-family: "Lato", sans-serif;
   color: black;
-  margin-top: 10px;
+  margin-top: 5px;
   display: block;
   transition: .1s;
 
@@ -4716,8 +4718,9 @@ body.twenty .navinfo
 
  {
   position: fixed; 
-  top: 40px;
+  top: 32px;
   right: 38px;
+    font-family: "Lato", sans-serif;
 }
 
 body.twoC .navappear, body.two .navappear, body.sixC .navappear,
@@ -4751,8 +4754,9 @@ body.eleven .source, body.twelve .source, body.thirteen .source,
 body.twenty .source {
   font-size: 12px;
   text-transform: uppercase;
+    font-family: "Lato", sans-serif;
   color: white;
-  margin-top: 10px;
+  margin-top: 5px;
   display: block;
   transition: .1s;
 }
