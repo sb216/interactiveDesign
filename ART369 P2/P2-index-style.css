@@ -1,4 +1,4 @@
-body {
+/*body {
 	background-color: #FFCC00;
 }
 
@@ -65,4 +65,149 @@ a:hover {
 
 a:focus{
 	text-decoration: none;
+}*/
+
+
+
+body {
+	background-color: #FFFFF4;
+/*	font-family: "Roboto Condensed", sans-serif;*/
+	font-family: "Oswald", sans-serif;
+
 }
+
+body a {
+	text-decoration: none;
+	color: black;
+}
+
+body h1 { 
+	padding: 0px;
+	margin: 0px;
+	font-weight: 300;
+	font-size: 25px;
+}
+
+header {
+	position: relative;
+	top: 100px;
+	left: 300px;
+	border-top: 7px solid black;
+	padding-top: 15px;
+	width: 64.5%;
+
+}
+
+header h1 {
+	font-weight: 400;
+}
+
+.content {
+	position: relative;
+	left: 800px;
+	top: 100px;
+	width: 30%;
+	height: 200px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	-moz-column-count: 4;
+	  -moz-column-gap: 10px;
+	  -webkit-column-count: 4;
+	  -webkit-column-gap: 10px;
+	  column-count: 4;
+	  column-gap: 10px;
+}
+
+.coverdetails {
+	opacity: 0;
+	transition: .5s;
+	position: absolute;
+	left: 3px;
+	top: 300px;
+	width: 300px;
+	text-align: left;
+	-moz-column-count: 1;
+	  -moz-column-gap: 10px;
+	  -webkit-column-count: 1;
+	  -webkit-column-gap: 10px;
+	  column-count: 1;
+	  column-gap: 10px;
+}
+
+a:hover {
+	font-weight: 400;
+}
+
+
+#oneC:hover ~ #one {
+	opacity: 1;
+}
+
+#twoC:hover ~ #two {
+	opacity: 1;
+}
+
+#threeC:hover ~ #three {
+	opacity: 1;
+}
+
+#fourC:hover ~ #four {
+	opacity: 1;
+}
+
+#fiveC:hover ~ #five {
+	opacity: 1;
+}
+
+#sixC:hover ~ #six {
+	opacity: 1;
+}
+
+#sevenC:hover ~ #seven {
+	opacity: 1;
+}
+
+#eightC:hover ~ #eight {
+	opacity: 1;
+}
+
+#nineC:hover ~ #nine {
+	opacity: 1;
+}
+
+
+#tenC:hover ~ #ten {
+	opacity: 1;
+}
+
+#elevenC:hover ~ #eleven {
+	opacity: 1;
+}
+
+#twelveC:hover ~ #twelve {
+	opacity: 1;
+}
+
+#thirteenC:hover ~ #thirteen {
+	opacity: 1;
+}
+
+#fourteenC:hover ~ #fourteen {
+	opacity: 1;
+}
+
+#fifteenC:hover ~ #fifteen {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

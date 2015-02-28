@@ -135,6 +135,7 @@ body.oneC {
   padding: 0px;
   background-color: #EEE;
   overflow: hidden;
+
 }
 
 body.oneC h1 {
@@ -188,7 +189,7 @@ body.oneC .design a {
 
 }
 
-body.oneC a:hover {
+body.oneC #x:hover {
   text-decoration: none;
   color: #A0A0A0;
 }
@@ -354,7 +355,7 @@ body.twoC a {
   outline: 0;
 }
 
-body.twoC a:hover {
+body.twoC #title:hover {
   font-weight: 600;
 }
 
@@ -4566,11 +4567,11 @@ body.twentyC a {
 
 nav {
   position: fixed;
-  right: 25px;
+  right: 40px;
   top: 10px;
   padding: 0px;
   margin: 0px;
-  text-align: center;
+  text-align: right;
   font-family: "Lato", sans-serif;
   z-index: 100;
   line-height: 15px;
@@ -4580,15 +4581,39 @@ nav {
 
 .hoverbutton {
   border-radius: 50%;
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
   background-color: black;
   width: 10px;
   height: 10px;
   margin-top: 8px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+  position: fixed;
+  right: 42px;
+
 
 }
+
+.navinfo {
+  position: fixed; 
+  top: 40px;
+  right: 38px;
+}
+
+
+/*.navbox {
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navli {
+  list-style: none;
+}
+
+.navarrows {
+  display: inline-block;
+}*/
 
 .navappear {
   opacity: 0;
@@ -4601,16 +4626,38 @@ nav {
   padding: 0px;
   margin: 0px;
   outline: 0;
+ /* position: fixed;
+  top: 20px;*/
+/*  padding-right: 15px;*/
+
 
 }
 
-.home {
+
+
+
+.home, .source {
   font-size: 12px;
   text-transform: uppercase;
   color: black;
-  margin-top: 6px;
+  margin-top: 10px;
   display: block;
+  transition: .1s;
+
 }
+
+.home:hover, .source:hover {
+  font-weight: 400;
+}
+
+/*.arrows {
+  transition: 0.1s;
+}
+
+.arrows:hover {
+  font-size: 18px;
+
+}*/
 
 
 nav:hover .navappear {
@@ -4628,12 +4675,12 @@ body.sevenC nav, body.nineC nav, body.tenC nav,
 body.fourteenC nav, body.twentyC nav, body.five nav, body.seven nav,
 body.nine nav, body.ten nav, body.eleven nav,  body.twelve nav, 
 body.thirteen nav, body.twenty nav {
-  position: fixed;
-  right: 25px;
+   position: fixed;
+  right: 40px;
   top: 10px;
   padding: 0px;
   margin: 0px;
-  text-align: center;
+  text-align: right;
   font-family: "Lato", sans-serif;
   z-index: 100;
   line-height: 15px;
@@ -4646,15 +4693,31 @@ body.fourteenC .hoverbutton, body.twentyC .hoverbutton, body.five .hoverbutton,
 body.seven .hoverbutton, body.nine .hoverbutton,  body.ten .hoverbutton,
 body.eleven .hoverbutton, body.twelve .hoverbutton, body.thirteen .hoverbutton,
 body.twenty .hoverbutton  {
-  border-radius: 50%;
-  margin: 0px auto;
+   border-radius: 50%;
+  margin: 0px;
   padding: 0px;
   background-color: white;
   width: 10px;
   height: 10px;
   margin-top: 8px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+  position: fixed;
+  right: 42px;
 
+}
+
+
+body.twoC .navinfo, body.two .navinfo, body.sixC .navinfo,
+body.sevenC .navinfo, body.nineC .navinfo, body.tenC .navinfo,
+body.fourteenC .navinfo, body.twentyC .navinfo, body.five .navinfo,
+body.seven .navinfo, body.nine .navinfo,  body.ten .navinfo,
+body.eleven .navinfo, body.twelve .navinfo, body.thirteen .navinfo,
+body.twenty .navinfo 
+
+ {
+  position: fixed; 
+  top: 40px;
+  right: 38px;
 }
 
 body.twoC .navappear, body.two .navappear, body.sixC .navappear,
@@ -4663,7 +4726,7 @@ body.fourteenC .navappear, body.twentyC .navappear, body.five .navappear,
 body.seven .navappear, body.nine .navappear, body.ten .navappear,
 body.eleven .navappear, body.twelve .navappear, body.thirteen .navappear,
 body.twenty .navappear {
-  opacity: 0;
+    opacity: 0;
   transition: .5s;
   text-decoration: none;
   color: white;
@@ -4672,7 +4735,7 @@ body.twenty .navappear {
   font-size: 16px;
   padding: 0px;
   margin: 0px;
-  letter-spacing: 0px;
+  outline: 0;
 }
 
 body.twoC .home, body.two .home, body.sixC .home,
@@ -4680,12 +4743,33 @@ body.sevenC .home, body.nineC .home, body.tenC .home,
 body.fourteenC .home, body.twentyC .home, body.five .home,
 body.seven .home, body.nine .home, body.ten .home,
 body.eleven .home, body.twelve .home, body.thirteen .home,
-body.twenty .home  {
+body.twenty .home, body.twoC .source, body.two .source, body.sixC .source,
+body.sevenC .source, body.nineC .source, body.tenC .source,
+body.fourteenC .source, body.twentyC .source, body.five .source,
+body.seven .source, body.nine .source, body.ten .source,
+body.eleven .source, body.twelve .source, body.thirteen .source,
+body.twenty .source {
   font-size: 12px;
   text-transform: uppercase;
   color: white;
-  margin-top: 6px;
+  margin-top: 10px;
   display: block;
+  transition: .1s;
+}
+
+
+body.twoC .home:hover, body.two .home:hover, body.sixC .home:hover,
+body.sevenC .home:hover, body.nineC .home:hover, body.tenC .home:hover,
+body.fourteenC .home:hover, body.twentyC .home:hover, body.five .home:hover,
+body.seven .home:hover, body.nine .home:hover, body.ten .home:hover,
+body.eleven .home:hover, body.twelve .home:hover, body.thirteen .home:hover,
+body.twenty .home:hover, body.twoC .source:hover, body.two .source:hover, body.sixC .source:hover,
+body.sevenC .source:hover, body.nineC .source:hover, body.tenC .source:hover,
+body.fourteenC .source:hover, body.twentyC .source:hover, body.five .source:hover,
+body.seven .source:hover, body.nine .source:hover, body.ten .source:hover,
+body.eleven .source:hover, body.twelve .source:hover, body.thirteen .source:hover,
+body.twenty .source:hover {
+  font-weight: 400;
 }
 
 
