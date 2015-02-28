@@ -105,7 +105,7 @@ header h1 {
 .content {
 	position: relative;
 	left: 800px;
-	top: 100px;
+	top: 170px;
 	width: 30%;
 	height: 200px;
 	text-align: left;
@@ -135,10 +135,38 @@ header h1 {
 	  column-gap: 10px;
 }
 
+#project {
+/*	opacity: 0; */
+	position: absolute;
+	left: 310px;
+	top: 130px;
+	width: 28%;
+
+	height: 400px;
+
+}
+
+#project h1 {
+	z-index: 20;
+}
+
+#project p {
+	position: relative;
+	top: 250px; 
+	opacity: 0;
+	z-index: 100;
+	transition: 0.5s;
+}
+
 a:hover {
 	font-weight: 400;
 }
 
+
+
+#homepage:hover + p {
+	opacity: 1;
+}
 
 #oneC:hover ~ #one {
 	opacity: 1;
