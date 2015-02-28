@@ -1395,7 +1395,7 @@ body.eightC .circle {
   margin: 0px;
   z-index: -1;
   border-radius: 50%;
-  /*border: 8px solid #525251;*/
+  background-color: white;
   border: 8px solid #E6B800;
   height: 598px;
   width: 598px;
@@ -1410,39 +1410,62 @@ body.eightC a {
   text-decoration: none;
   color: #525251;
   color: #E6B800;
-  transition: 1s;
+  transition: 1.5s;
 }
 
 body.eightC img {
-  opacity: 0;
-  transition: 1s;
   position: absolute;
-  top: 140px;
-  left: 445px;
+  top: 90px;
+  left: 95px;
   width: 400px;
   height: auto;
 
+
 }
 
-body.eightC p {
+/*body.eightC p {
   opacity: 1;
   transition: 1s;
 }
 
-body.eightC #title:hover {
+body.eightC .circle:hover a {
   opacity: 0;
  
 }
 
-body.eightC #title:hover ~ p {
+body.eightC .circle:hover p {
   opacity: 0;
  
+}*/
+
+
+body.eightC .circletwo {
+  /*text-align: center;*/
+  padding: 0px;
+  margin: 0px;
+ /* z-index: -1;*/
+  border-radius: 50%;
+  background-color: white;
+  border: 8px solid #E6B800;
+  height: 598px;
+  width: 598px;
+  margin: 0px auto;
+  position: absolute;
+  top: 30px;
+  left: 341px;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 6;
+  transition: 1s;
+
 }
 
-body.eightC #title:hover + img {
+body.eightC .circletwo:hover {
   opacity: 1;
 
 }
+
+
 
 
 
