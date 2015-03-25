@@ -1,0 +1,14 @@
+body {
+	background-color: #ADD633;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Oswald", sans-serif; 
+}
+
+#homepage-title {
+	color: white;
+	opacity: .8; 
+	text-transform: uppercase;
+	font-size: 100px;
+	text-align: center;
+}

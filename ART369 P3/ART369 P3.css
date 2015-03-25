@@ -1,0 +1,141 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-family: "Oswald";
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: #00CC99;
+/*	background-color:  rgba(0, 204, 153, 0.5);*/
+}
+
+#homepage-title {
+	
+	font-weight: 400;
+	color: #00CC99;
+	font-size: 100px;
+	text-align: right; 
+	text-transform: uppercase;
+	line-height: 87px;
+	font-size: 95px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 1%;
+	top: -1%;
+	/*font-family: "Francois One", sans-serif;*/
+}
+
+#homepage-title h1 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#box {
+	padding: 0px;
+	margin: 0px;
+	border: 15px solid #00CC99;
+	width: 85%;
+	height: 65%;
+	position: fixed;
+	top: 13%;
+	left: 6%;
+	background-color: white;
+/*	background-color:  rgba(0, 204, 153, 0.3)*/
+}
+
+#date-info {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	right: 20%;
+	top: 6%;
+	width: 30%;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 4px;
+
+}
+
+#date-start {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-weight: 700;
+	
+}
+
+#date-dash {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-left: 6%;
+	margin-right: 6%;
+	font-weight: 700;
+	letter-spacing: 0px;
+	
+}
+
+#date-end {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-weight: 700;
+	
+}
+
+#countdown {
+	margin: 0px;
+	padding: 0px;
+	font-weight: 700;
+}
+
+#links {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	/*right: 8%;*/
+	bottom: 3%;
+	left: 46%;
+	line-height: 0px; 
+	width: 40%;
+
+}
+
+#main-nav {
+	font-size: 30px;
+	line-height: 50px;
+/*	color: #00CC99; */
+	padding: 0px;
+	margin: 0px;
+/*	margin-bottom: 8%;*/
+	float: left;
+	text-align: right;
+
+}
+
+#main-nav h2 {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#sup-nav {
+	font-size: 16px;
+	letter-spacing: 4px;
+	/*font-family: "Montserrat", sans-serif;*/
+
+	line-height: 18px;
+	margin-top: 2%;
+	margin-left: 3%;
+	float: left;
+
+ 
+}
+
+#sup-nav h4 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: 700;
+}
+
