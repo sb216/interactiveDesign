@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title> EFFY 2015 </title> 
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,600,300,200,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href="ART369 P3 homepage 7.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body id = "body-who"> 
+
+<!-- 	<section id = "fixed-event-title">
+		<h3 id = "date-start"> 4.3.15 &mdash;&mdash;&mdash;&mdash;&mdash;&mdash; 4.11.15 </h3>
+	
+		<h1 id = "title"> <a href = "ART369 P3 homepage 6.html">Environmental film festival at Yale </a></h1>
+		<h3 id = "countdown"> 4:05:16:55 until opening </h3>
+
+	</section>  -->
+
+	<section class = "screen-color" id = "who">
+	</section>
+		<div class = "border"> </div> 
+	<section class = "overflow" id = "top"> </section> 
+	<section class = "overflow" id = "bottom"> </section>  
+
+	<section class = "screen">
+		<h1 class = "section-title"> Who We Are </h1> 
+
+		<h1 class = "x"> <a href = "ART369 P3 homepage 6.html"> x </a> </h1>
+
+		<section class = "main-text"> 
+		
+			<p> We are a group of graduate students who are committed to advancing environmental awareness through the power of film. Each year, EFFY supplants its graduating leadership with promising descendants who perpetually renew the festival with fresh ideas and insights. We strive to empower the expanding community of environmental filmmakers by showcasing their work and facilitating their development. If EFFY sparks meaningful conversations while motivating others to act on newfound convictions, then our festival has succeeded. We look forward to seeing you at EFFY! </p>
+		</section> 
+
+
+		<h1 class = "section-title"> Our Team </h1>
+
+		<section class = "image-grid"> 
+
+			<ul> 
+				<li id = "don"> <!-- Don Mosteller <br> Executive Director --> </li> 
+				<li id = "annie"> <!-- Annie Berke <br> Director of Programming  --></li> 
+				<li id = "daniel"><!--  Daniel Macri <br> Director of Operations -->  </li> 
+				<li id = "fernanda"> <!-- Fernanda Franco de Sa <br> Director of Marketing and Public Relations  --></li> 
+				<li id = "jessie"> <!-- Jessie H. Shoemaker <br> Director of Development --> </li> 
+				<li id = "dawn"> <!-- Dawn Henning <br> Associate Director of Youth Programming  --></li> 
+				<li id = "avana"> <!-- Avana Andrade <br> Associate Director of Workshops  --></li> 
+				<li id = "zoraya"> <!-- Zoraya Hightower <br> Associate Director of Advocacy Coordination  --></li> 
+			</ul>
+
+			<!-- <img alt = "don" src = "daniel.jpg">
+			<img alt = "don" src = "fernanda.jpg">	
+			<img alt = "don" src = "jessie.jpg">	
+			<img alt = "don" src = "dawn.jpg">			
+			<img alt = "don" src = "avana.jpg">	
+			<img alt = "don" src = "zoraya.jpg"> -->	
+
+		
+			<!-- <p> Don is a Master of Environmental Management candidate at the Yale School of Forestry & Environmental Studies. He’s a guy from Philly who spent most of his childhood beating drums, tickling piano keys, and playing outside with his sister. His insatiable curiosity eventually whisked him away to South Africa where he studied climate change on a Fulbright Fellowship. He’s created educational materials for National Geographic and lobbied for clean energy legislation at the Pew Charitable Trusts, but these days Don isn’t just focused on legalese. He’s searching for ways to describe how pissed off Mother Nature really is, and films tell her story pretty well. </p> -->
+		</section> 
+
+	</section> 
+
+
+
+	<!-- <section id = "section-three">
+
+		
+	</section>  -->
+</body> 
+</html>

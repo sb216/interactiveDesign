@@ -1,0 +1,555 @@
+
+body, h1, h2, h3, h4, p, a {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+body {
+		overflow-x: hidden;
+		background-color: #EEEEEE;
+}
+
+a {
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+
+
+
+#triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 60px solid transparent; 
+	border-right: 60px solid transparent; 
+	border-bottom: 120px solid #00C95E;
+
+	position: absolute;
+	top: 38%;
+	left: 45%;
+}
+
+#title-main {
+	font-size: 3rem;
+	color: #00C95E;
+	position: absolute;
+	top: 57%;
+	left: 46.5%;
+}
+
+
+
+
+
+
+
+#fixed-event-title {
+	width: 40%;
+	text-align: left;
+
+	position: absolute;
+	top: 5%;
+	left: 3%;
+
+
+
+}
+
+#title {
+	margin-top: 2%;
+
+}
+
+#title a{
+	font-size: 1.5rem;
+	line-height: .5rem;
+	font-weight: 400;
+	/*color: #99CC00;
+	color: #00CC99;
+	color: #A3D119;
+	color: #00C95E;
+	color: #00CC99;*/
+	color: white;
+/*	color: #EEEEEE;
+	background-color: #00C95E;*/
+/*
+
+	padding-left: 2%;
+	padding-right: 2%;*/
+
+}
+
+#title a:hover {
+	color: #00CC99;
+}
+
+
+#date-start, #date-end, #date-dash {
+	font-size: 1.5rem;
+	line-height: 1rem;
+	font-weight: 400;
+	color: #525252;
+}
+
+#date-end {
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+
+#date-dash {
+	line-height: 1rem;
+}
+
+
+
+#section-one p {
+	font-size: 5rem;
+	line-height: 5rem;
+	font-weight: 400;
+	text-align: left;
+/*	text-align: right;*/
+/*	width: 51%;*/
+	width: 60%;
+
+
+
+	position: absolute;
+	top: 24%;
+	left: 8%;
+
+	/*right: 7%;
+	bottom: 8%;*/
+
+
+	color: #525252;
+
+
+	/*padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom: 3%;
+	padding-right: 3%;*/
+
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+
+
+
+
+
+}
+
+
+
+#links {
+	position: absolute;
+	text-align: right;
+
+	right: 8%;
+	top: 22%;
+	width: 60%;
+
+
+}
+
+#links ul {
+	list-style: none;
+
+}
+
+#links a {
+	color: #00C95E;
+	color: black;
+	font-size: 4.5rem;
+	line-height: 5rem;
+}
+
+#links #about-link a:hover {
+	color: #00C95E;
+}
+
+#links #who-link a:hover {
+	color: #00CC99;
+}
+
+#links #location-link a:hover {
+	color: #00C95E;
+}
+
+#links #sponsors-link a:hover {
+	color: #00C95E;
+}
+
+#links #films-link a:hover {
+	color: #00A37A;
+}
+
+
+
+.screen-color {
+	width: 84.5%;
+	height: 70vh;
+
+
+	position: fixed;
+	top: 22%;
+	left: 8%;
+
+/*	border: 4px solid #EEEEEE;*/
+}
+
+.border {
+	width: 84.5%;
+	height: 70vh;
+
+
+	position: fixed;
+	top: 22%;
+	left: 8%;
+	border: 4px solid #EEEEEE;
+
+	z-index: 100;
+}
+
+.screen {
+	width: 84.5%;
+	height: 70vh;
+
+
+	position: absolute;
+	top: 22%;
+	left: 8%;
+
+
+
+}
+
+#body-about {
+	background-color: #00C95E;
+}
+
+#body-who {
+	background-color: #00CC99;
+}
+
+#body-films {
+	background-color: #00A37A;
+}
+
+#about {
+	background-color: #00C95E;
+}
+
+#who {
+	background-color: #00CC99;
+
+}
+
+#films {
+	background-color: #00A37A;
+}
+
+
+.section-title {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+
+	color: white;
+	font-size: 5rem;
+
+	margin-left: 2%;
+}
+
+.main-text {
+	width: 50%;
+	text-align: right;
+
+	position: relative;
+	left: 47%;
+	top: 0%;
+}
+
+.image-grid {
+	width: 90%;
+	float: left; 
+
+	position: relative;
+	left: 5%;
+
+	padding-bottom: 10%;
+}
+
+.image-grid ul {
+	list-style: none;
+
+}
+
+.image-grid li {
+	display: inline-block;
+	width: 21%;
+	height: 30vh; 
+	color: white;
+	text-align: center;
+	margin: 1%;
+
+
+}
+
+#don {
+	background: url("don.jpg");
+
+}
+
+#annie {
+	background: url("annie.jpg");
+
+}
+
+#daniel {
+	background: url("daniel.jpg");
+
+}
+
+
+#fernanda {
+	background: url("fernanda.jpg");
+
+}
+
+#jessie {
+	background: url("jessie.jpg");
+
+}
+
+#dawn {
+	background: url("dawn.jpg");
+
+}
+
+#avana {
+	background: url("avana.jpg");
+
+}
+
+#zoraya {
+	background: url("zoraya.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+/*.image {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.image h2 {
+	position: absolute;
+	top: 25%;
+	left: 4%;
+
+	color: white;
+}
+
+img {
+	padding: 2%;
+	max-width: 239px; 
+	height: auto;
+}*/
+
+.x {
+	
+	position: fixed;
+	top: 21%;
+	right: 10%;
+	z-index: 100;
+}
+
+.x a {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-size: 5rem;
+	color: white;
+
+}
+
+
+.main-text p{
+	text-transform: none;
+	font-family: "Dosis", sans-serif;
+	font-size: 1.1rem;
+}
+
+
+
+
+
+.overflow {
+
+
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+#body-about .overflow {
+	background-color: #00C95E;
+}
+
+#body-who .overflow {
+	background-color: #00CC99;
+}
+
+
+#body-films .overflow {
+	background-color: #00A37A;
+}
+
+#top {
+	height: 22vh; 
+	top: 0%;
+	left: 0%;
+}
+
+#bottom {
+
+	height: 6.8vh; 
+	bottom: 0%;
+	left: 0%;
+}
+
+
+
+#body-films .image-grid {
+	width: 90%;
+	float: left; 
+
+	position: relative;
+	left: 5%;
+
+	padding-bottom: 10%;
+
+}
+
+#body-films .image-grid li {
+	width: 30%;
+	height: 43vh;
+	display: inline-block;
+
+}
+
+#body-films .image-grid #deeptime {
+	background: url("deeptime.png");
+
+}
+
+#body-films .image-grid #wrenched {
+	background: url("wrenched.jpg");
+
+}
+
+#body-films .image-grid #mayor {
+	background: url("mayor.png");
+
+}
+
+#body-films .image-grid #justeat {
+	background: url("justeat.jpg");
+
+}
+
+#body-films .image-grid #umi {
+	background: url("umi.jpg");
+
+}
+
+
+
+#body-films .image-grid #monsoon {
+	background: url("monsoon.jpg");
+
+}
+
+#body-films .image-grid #divide {
+	background: url("divide.jpg");
+
+}
+
+#body-films .image-grid #blackice {
+	background: url("blackice.jpg");
+
+}
+
+#body-films .image-grid #inhabit {
+	background: url("inhabit.jpg");
+
+}
+
+#body-films .image-grid #thuletuvala {
+	background: url("thuletuvala.jpg");
+
+}
+
+#body-films .image-grid #hayes {
+	background: url("hayes.jpg");
+
+}
+
+#body-films .image-grid #soil {
+	background: url("soil.jpg");
+
+}
+
+#body-films .image-grid #mother {
+	background: url("mother.jpg");
+
+}
+
+#body-films .image-grid #santacruz {
+	background: url("santacruz.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

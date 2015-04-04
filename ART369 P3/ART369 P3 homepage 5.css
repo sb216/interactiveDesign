@@ -1,0 +1,377 @@
+body, h1, h2, h3, h4, p, a {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+body {
+		overflow-x: hidden;
+}
+
+a {
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+
+
+#sidebar {
+	height: 100vh; 
+	width: 18%;
+
+	position: fixed;
+	top: 0%;
+	left: 0%;
+
+	/*background-color: #00CC99;*/
+	/*background-color: #99CC00;*/
+/*	background-color: #525252;*/
+	background-color: #EEEEEE;
+
+	z-index: -1;
+} 
+
+/*#sidebar:after {
+	 background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
+        background-position: left-bottom;
+        background-repeat: repeat-x;
+        background-size: 32px 32px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 32px;
+}*/
+
+
+#section-one {
+	height: 100vh;
+	width: 82%;
+/*	width: 62%;*/
+	position: relative;
+	top: 0%;
+	right: 0%;
+	background-color: #EEEEEE;
+/*	background-color: #D6EB99;*/
+	float: right;
+
+}
+
+#fixed-event-title {
+	width: 100%;
+	text-align: right;
+
+	position: absolute;
+	top: 11%;
+	right: 5%;
+
+
+
+}
+
+#title a{
+	font-size: 1.5rem;
+	line-height: .5rem;
+	font-weight: 400;
+	color: #99CC00;
+	color: #00CC99;
+	color: #A3D119;
+	color: #00C95E;
+
+
+
+}
+
+#date-start, #date-end, #date-dash {
+	font-size: 1.5rem;
+	line-height: 1rem;
+	font-weight: 400;
+	color: #525252;
+}
+
+#date-end {
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+
+#date-dash {
+	line-height: 1rem;
+}
+
+
+
+#section-one p {
+	font-size: 4.5rem;
+	line-height: 4.5rem;
+	font-weight: 400;
+	text-align: left;
+/*	text-align: right;*/
+/*	width: 51%;*/
+	width: 60%;
+
+	position: absolute;
+	bottom: 19%;
+	left: 0%;
+
+	/*right: 7%;
+	bottom: 8%;*/
+
+
+	color: #525252;
+
+
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom: 3%;
+	padding-right: 3%;
+
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+
+
+}
+
+#arrow {
+	transform: rotate(180deg);
+	position: absolute;
+	font-size: 4.5rem;
+
+	bottom: 5%;
+	right: 66%;
+}
+
+
+#section-one p #film {
+	color: #99CC00; 
+	color: #00CC99;
+	color: #A3D119;
+	color: #00C95E;
+}
+
+#links {
+	position: absolute;
+
+	right: 5%;
+	top: 30%;
+}
+
+#links ul {
+	list-style: none;
+	text-align: right;
+}
+
+#links a {
+	font-size: .8rem;
+	line-height: 0rem;
+	color: #525252;
+}
+
+#links li {
+	line-height: 1.2rem;
+}
+
+#links .main-link a {
+	color: #99CC00;
+}
+
+
+
+
+#section-two {
+	background-color: #D3D3D3;
+
+	background-color: #D6EB99;
+	background-color: #4DDBB8;
+	background-color: #B8DB4D;
+	background-color: #00C95E;
+	height: 100vh;
+	width: 82%; 
+
+	height: 100vh;
+	width: 82%;
+
+	position: relative;
+	
+	right: 0%;
+
+	float: right;
+	z-index: 0;
+}
+
+#section-two .main-text {
+	width: 40%;
+
+	position: absolute;
+	top: 37%;
+	left: 5%;
+
+
+
+
+}
+
+
+
+#section-two .section-title {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-size: 4rem;
+/*	color: #99CC00 ;*/
+	color: #525252;
+	color: #4DDBB8;
+	color: #EEEEEE; 
+	line-height: 4rem;
+
+	position: absolute;
+	left: 5%;
+	top: 5%;
+
+	/*text-transform: lowercase;*/
+
+
+
+
+}
+
+
+/*
+#section-two #box {
+		background-color:#EEEEEE;
+		width: 100%;
+		height: 26vh; 
+		position: absolute;
+		bottom: 15%;
+		left: 5%;
+		z-index: -1;
+
+}*/
+
+#section-two .main-text p {
+	text-transform: none;
+	font-size: 1.1rem;
+		font-family: "Dosis", sans-serif;
+
+	text-align: justify;
+}
+
+
+#section-two .left {
+	left: 52%;
+
+}
+
+
+
+
+#section-three {
+	background-color: #D3D3D3;
+
+	background-color: #D6EB99;
+	background-color: #82E6CD;
+	height: 100vh;
+	width: 82%; 
+
+	height: 100vh;
+	width: 82%;
+	position: relative;
+	
+	right: 0%;
+
+	float: right;
+	z-index: 0;
+}
+
+#section-three .main-text {
+	width: 50%;
+
+	position: absolute;
+	bottom: 15%;
+	left: 35%;
+}
+
+#section-three .section-title {
+	font-family: "Dosis", sans-serif;
+	font-size: 4rem;
+/*	color: #99CC00 ;*/
+	color: #525252;
+	color: #4DDBB8;
+	color: #EEEEEE; 
+	line-height: 4rem;
+
+	position: absolute;
+	left: 5%;
+	bottom: 15%;
+
+}
+
+
+
+#section-three .main-text p {
+	text-transform: none;
+	font-size: 1.2rem;
+		font-family: "Dosis", sans-serif;
+}
+
+
+
+
+/*#container {
+	width: 20%;
+	height: 100vh;
+	position: absolute;
+
+	left: 18%;
+	top: 0%;
+	z-index: 100;
+}
+
+
+.bar {
+	width: 14.2%;
+	height: 100vh;
+	float: left;
+}
+
+#one {
+	background-color: #D6EB99;
+}
+
+#two {
+	background-color: #CCE680;
+}
+
+
+#three {
+	background-color: #C2E066;
+}
+
+#four {
+	background-color: #B8DB4D;
+}
+
+
+#five {
+	background-color: #ADD633; 
+}
+
+#six {
+	background-color: #A3D119;
+
+}
+
+#seven {
+	background-color: #99CC00; 
+}*/
+
+
+

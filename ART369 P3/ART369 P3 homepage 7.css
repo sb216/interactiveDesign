@@ -1,0 +1,680 @@
+body, h1, h2, h3, h4, p, a, span {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+body {
+		overflow-x: hidden;
+		background-color: #EEEEEE;
+}
+
+a {
+	font-family: "Oswald", sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+#triangle {
+	/*width: 0; 
+	height: 0; 
+	border-left: 67px solid transparent; 
+	border-right: 67px solid transparent; 
+	border-bottom: 134px solid black;
+
+
+	position: absolute;
+	top: 36%;
+	left: 43%;*/
+
+	width: 0; 
+	height: 0; 
+	border-left: 45px solid transparent; 
+	border-right: 45px solid transparent; 
+	border-bottom: 90px solid #00C95E;
+
+
+	position: absolute;
+	top: 39%;
+	left: 45%;
+
+}
+
+#triangle-links {
+	/*width: 0; 
+	height: 0; 
+	border-left: 67px solid transparent; 
+	border-right: 67px solid transparent; 
+	border-bottom: 134px solid black;
+
+
+	position: absolute;
+	top: 36%;
+	left: 43%;*/
+
+	width: 0; 
+	height: 0; 
+	border-left: 12px solid transparent; 
+	border-right: 12px solid transparent; 
+	border-bottom: 24px solid white;
+
+
+	position: fixed;
+	top: 3%;
+	left: 2%;
+	z-index: 200;
+
+}
+
+#triangle-title {
+	position: absolute;
+	left: 4.3%;
+	top: 2.3%;
+}
+
+#triangle-title a {
+	font-size: 1.4rem;
+	color: white;
+}
+
+
+#title-main {
+	font-size: 3rem;
+	color: #00C95E;
+	position: absolute;
+	top: 57%;
+	left: 46.5%;
+}
+
+
+#links {
+	position: absolute;
+	right: 10%;
+	top: 33.1%;
+
+	width: 20%;
+	text-align: left;
+}
+
+/*#links {
+  -webkit-animation: linksan 15s;
+  animation: linksan 15s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes linksan {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes linksan {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}*/
+
+#links a {
+	font-size: 1.1rem;
+}
+
+#section-one {
+	
+
+	width: 25%;
+	height: auto;
+
+	position: absolute;
+	top: 38%;
+	left: 5%;
+
+	text-align: right;
+
+}
+
+#section-one h1 a {
+	font-size: 1.5rem;
+	color: #00C95E;
+}
+
+#section-one h3 {
+	font-size: 1.2rem;
+}
+
+#section-one p {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-size: 1.1rem;
+
+/*	text-align: right;*/
+}
+
+/*#section-one {
+  -webkit-animation: sectionsan 15s;
+  animation: sectionsan 15s;
+  animation-iteration-count: 1; 
+}
+
+
+@-webkit-keyframes sectionsan {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes sectionsan {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}*/
+
+.section-title {
+	font-size: 1.5rem;
+
+	width: 25%;
+	position: fixed;
+	top: 43%;
+	left: 5%;
+
+	text-align: right;
+	color: white;
+}
+
+.section-title-two {
+
+	top: 50%;
+
+
+}
+
+.section-title-three {
+	top: 58%;
+}
+
+#arrow {
+	color: black;
+}
+
+
+.body-movie .section-title-two {
+	font-size: 1rem;
+}
+
+.section-title a{
+	font-size: 1.5rem;
+		text-align: right;
+
+	color: white;
+
+}
+
+#current {
+	border-bottom: 4px solid white;
+}
+
+#text {
+	width: 50%;
+
+	position: absolute;
+	right: 10%;
+	top: 30%;
+
+	padding-bottom: 10%;
+}
+
+#body-who #text {
+	top: 10%;
+}
+
+.body-movie #text {
+	top: 15%;
+}
+
+.thuletuvalu #text {
+	top: 25%;
+}
+
+.deeptime #text {
+	top: 22%;
+}
+
+.inhabit #text {
+	top: 20%;
+}
+
+
+
+
+#body-person #text {
+	top: 30%;
+}
+
+.body-films #text {
+	top: 10%;
+}
+
+
+.white {
+	color: white;
+}
+
+
+#main-text {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	margin-bottom: 2%;
+}
+
+.event-title {
+	font-size: 1.5rem;
+	margin-bottom: 0px;
+}
+
+.film-info {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+.overflow {
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	z-index: 100;
+}
+
+body#body-about {
+	background-color: #339966;
+}
+
+
+body#body-who {
+	background-color: #00CC99;
+}
+
+body#body-person {
+	background-color: #00CC99;
+}
+
+body.body-films, body.body-events {
+	background-color: #00E68A;
+}
+
+body.body-movie {
+	background-color: #00E68A;
+
+}
+
+body#body-who .overflow {
+	background-color: #00CC99;
+
+}
+
+body#body-who #top {
+	top: 0px;
+	left: 0px;
+}
+
+body#body-who #bottom {
+	bottom: 0px;
+	left: 0px;
+}
+
+body#body-person .overflow {
+	background-color: #00CC99;
+
+}
+
+body#body-person #top {
+	top: 0px;
+	left: 0px;
+}
+
+body#body-person #bottom {
+	bottom: 0px;
+	left: 0px;
+}
+
+body.body-films .overflow {
+	background-color: #00E68A;
+
+}
+
+body.body-events .overflow {
+	background-color: #00E68A;
+}
+
+
+body.body-movie .overflow {
+	background-color: #00E68A;
+
+}
+
+body.body-movie #top {
+	top: 0px;
+	left: 0px;
+}
+
+body.body-movie #bottom {
+	bottom: 0px;
+	left: 0px;
+}
+
+body.body-films #top {
+	top: 0px;
+	left: 0px;
+}
+
+body.body-films #bottom {
+	bottom: 0px;
+	left: 0px;
+}
+
+body.body-events #top {
+	top: 0px;
+	left: 0px;
+}
+
+body.body-events #bottom {
+	bottom: 0px;
+	left: 0px;
+}
+
+
+
+.image-grid {
+	width: 200px;
+	height: 200px; 
+
+	float: left;
+	padding: 1%;
+
+
+}
+
+#images {
+	margin-top: 3%;
+}
+
+
+#don {
+	background: url("don.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#annie {
+	background: url("annie.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#daniel {
+	background: url("daniel.jpg");
+	background-repeat: no-repeat;
+}
+
+
+#fernanda {
+	background: url("fernanda.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#jessie {
+	background: url("jessie.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#dawn {
+	background: url("dawn.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#avana {
+	background: url("avana.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#zoraya {
+	background: url("zoraya.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.name {
+
+
+	position: relative;
+	padding-top: 64%;
+	padding-right: 7%;
+	text-align: right;
+
+
+	color: white;
+	opacity: .6;
+
+
+}
+
+.multi {
+	padding-top: 51%;
+}
+
+
+.name a {
+	color: white;
+	font-size: 1.5rem;
+
+
+	
+	position: relative;
+	padding-top: 65%;
+
+	text-align: right;
+
+
+
+} 
+
+
+
+
+.name:hover {
+	opacity: 1;
+}
+
+
+#arrow {
+	padding-top: 5%;
+}
+
+#arrow a {
+	font-size: 2rem;
+}
+
+
+
+.film-name {
+	color: white;
+
+	position: relative;
+	padding-top: 33%;
+	padding-right: 3%;
+	text-align: right;
+	opacity: .6;
+
+
+}
+
+.lowercase {
+	text-transform: none;
+}
+
+.film-name a {
+	color: white;
+	font-size: 1.5rem;
+
+}
+
+.film-name:hover {
+	opacity: 1;
+}
+
+.shorts {
+	padding-top: 38%;
+}
+
+
+
+.image-list {
+	/*width: 627px;*/
+	width: 600px;
+
+	height: 300px;
+
+	float: left;
+	margin-bottom: 5%;
+
+	border: 6px solid white;
+
+}
+
+.no-image {
+	height: 80px;
+	border: 5px solid white;
+}
+
+.no-image .film-name {
+	padding-top: 5%;
+}
+/*
+#body-films .subtitle {
+
+	padding-left: 64%;
+
+}*/
+
+
+
+
+
+
+#deeptime {
+	background: url("deeptime.png");
+
+		background-repeat: no-repeat;
+
+}
+
+#wrenched {
+	background: url("wrenched.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#mayor {
+	background: url("mayor.png");
+		background-repeat: no-repeat;
+
+}
+
+#santacruz {
+	background: url("santacruz.jpg");
+		background-repeat: no-repeat;
+
+}
+
+
+#mother {
+	background: url("mother.jpg");
+		background-repeat: no-repeat;
+
+}
+
+
+#justeat {
+	background: url("justeat.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#umi {
+	background: url("umi.jpg");
+		background-repeat: no-repeat;
+
+}
+
+
+
+#monsoon {
+	background: url("monsoon.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#divide {
+	background: url("divide.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#blackice {
+	background: url("blackice.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#inhabit {
+	background: url("inhabit.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#thuletuvalu {
+	background: url("thuletuvala.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#hayes {
+	background: url("hayes.jpg");
+		background-repeat: no-repeat;
+
+}
+
+#soil {
+	background: url("soil.jpg");
+		background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+

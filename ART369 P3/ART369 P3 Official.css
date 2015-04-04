@@ -1,0 +1,334 @@
+
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow: hidden;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px; 
+/*	background-color: #262626;*/
+/*	color: white;*/
+}
+
+h1, h2, h3, h4, div {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	outline: 0;
+	text-decoration: none;
+}
+
+
+
+/******************   HOMEPAGE ******************/
+
+
+#fixed-event-title {
+	position: fixed;
+	text-align: right;
+
+	/*bottom: 5%;
+	right: 5%;*/
+
+	top: 33%;
+	right: 5%;
+}
+
+#date-dash {
+	line-height: 0%;
+	padding-bottom: 4%;
+	padding-top: 2%;
+}
+
+#title, #title a {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	line-height: 1.8rem; 
+	color: #CCE680;
+
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#date-start, #date-dash, #date-end, #countdown {
+	font-weight: 400;
+	font-size: 1.2rem;
+	text-transform: uppercase;	
+}
+
+
+
+
+
+
+#links {
+	position: absolute;
+	text-transform: uppercase; 
+	text-align: right;
+
+	left: 0%;
+	z-index: 2;
+}
+
+#links h2, #links h4 {
+	font-weight: 400;
+}
+
+
+#links ul {
+	list-style: none;
+}
+
+#links li {
+	height: 14.36vh;
+	font-size: .8rem;
+}
+
+#links a {
+	position: relative;
+	top: 35%;
+
+	color: white;
+}
+
+#links a:hover {
+	left: 5%;
+}
+
+#links #current:hover {
+	left: 0%;
+}
+
+
+#links .main-link a { 
+/*	color: #ADD633;*/
+	color: white;
+	font-size: 2rem;
+	top: 15%;
+}
+
+
+
+
+
+#arrows {
+	position: absolute;
+	left: 13%;
+}
+
+#arrows ul {
+	list-style: none;
+}
+
+#arrows li {
+	height: 14.39vh;
+
+	clear: both;
+}
+
+.arrow {
+	width: 0%;
+	height: 0%; 
+	border-top: 5px solid transparent; 
+	border-right: 9px solid white; 
+	border-bottom: 5px solid transparent;
+
+	position: absolute;
+	left: .5%;
+	margin-top: 5.3vh;
+
+
+	z-index: 100;
+
+
+}
+
+
+
+#main-boxes {
+	width: 72%;
+	position: absolute;
+	left: 0%;
+
+}
+
+.box { 
+	width: 100%;
+	height: 0px; 
+/*	border-bottom: 14.2857143vh solid #D6EB99; */
+	/*height: calc(1/7 * 100%);*/
+/*	background-color: #D6EB99;*/
+	border-right: 5vw solid transparent;
+	transform: rotateX(180deg);
+
+
+
+}
+
+#box-one {
+	border-bottom: 14.36vh solid #D6EB99; 
+}
+
+#box-two {
+	border-bottom: 14.36vh solid #CCE680; 
+}
+
+#box-three {
+	border-bottom: 14.36vh solid #C2E066; 
+}
+
+#box-four {
+	border-bottom: 14.36vh solid #B8DB4D; 
+}
+
+#box-five {
+	border-bottom: 14.36vh solid #ADD633; 
+}
+
+#box-six {
+	border-bottom: 14.36vh solid #A3D119;
+
+}
+
+#box-seven {
+	border-bottom: 14.36vh solid #99CC00; 
+}
+
+
+/*#box-one {
+	border-bottom: 14.36vh solid #99EBD6; 
+}
+
+#box-two {
+	border-bottom: 14.36vh solid #80E6CC; 
+}
+
+#box-three {
+	border-bottom: 14.36vh solid #66E0C2; 
+}
+
+#box-four {
+	border-bottom: 14.36vh solid #4DDBB8; 
+}
+
+#box-five {
+	border-bottom: 14.36vh solid #33D6AD; 
+}
+
+#box-six {
+	border-bottom: 14.36vh solid #19D1A3; 
+}
+
+#box-seven {
+	border-bottom: 14.36vh solid #00CC99; 
+}*/
+
+
+
+
+
+
+/******************  ABOUT THE FESTIVAL ******************/
+
+
+#main {
+	width: 50%;
+	position: fixed;
+	left: 0%;
+
+
+}
+
+
+#angle { 
+	/*width: 100%;
+	height: 0px; 
+	border-right: 5vw solid transparent;
+	border-bottom: 14.36vh solid #C2E066;
+	transform: rotateX(180deg);*/
+
+	width: 50%;
+	height: 150vh;
+	background-color: #C2E066;
+
+	position: absolute;
+	transform: rotate(25deg);
+	left: 75%;
+	top: -20%;
+
+}
+
+
+
+
+#rectangle {
+	background-color: #C2E066;
+	height: 100vh;
+	width: 100%; 
+	z-index: 5;
+}
+
+#Films, #Events, #Who, #Location, #Sponsors, #Contact {
+	display: none;
+}
+
+#main-text {
+	width: 38%;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	text-align: justify;
+
+	z-index: 100;
+
+	font-weight: 400;
+	font-size: 1.05rem;
+	line-height: 1.5rem;
+	font-family: "Roboto", sans-serif;
+}
+
+
+#links-about {
+	text-align: right;
+	position: absolute;
+
+	right: 5%;
+	top: 65%;
+
+}
+
+#links-about ul {
+	list-style: none;
+}
+
+#links-about a {
+	color: black;
+	text-transform: lowercase;
+
+
+	font-size: 1rem;
+	line-height: .7rem;
+}
+
+#links-about li {
+	line-height: 1.6rem;
+}
+
+#links-about .main-link a { 
+	font-size: 1.3rem;
+	color: #C2E066;
+}
+
+
+
+
+
+
+
+
+
+
