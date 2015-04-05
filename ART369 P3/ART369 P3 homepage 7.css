@@ -103,8 +103,8 @@ ul {
 
 #links {
 	position: absolute;
-	right: 10%;
-	top: 33.1%;
+	right: 11%;
+	top: 34.5%;
 
 	width: 20%;
 	text-align: left;
@@ -224,7 +224,7 @@ ul {
 }
 
 #text {
-	width: 50%;
+	width: 52%;
 
 	position: absolute;
 	right: 10%;
@@ -253,6 +253,10 @@ ul {
 	top: 20%;
 }
 
+.body-events #text {
+	top: 15%;
+}
+
 
 
 
@@ -270,10 +274,12 @@ ul {
 }
 
 
-#main-text {
+.main-text {
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	text-transform: none;
+
+	width: 90%;
 }
 
 .subtitle {
@@ -305,9 +311,13 @@ body#body-about {
 	background-color: #339966;
 }
 
+body#body-sponsors {
+	background-color: #99CC00;
+}
+
 
 body#body-who {
-	background-color: #00CC99;
+	background-color: #30D6AC;
 }
 
 body#body-person {
@@ -324,7 +334,7 @@ body.body-movie {
 }
 
 body#body-who .overflow {
-	background-color: #00CC99;
+	background-color:#30D6AC;
 
 }
 
@@ -405,7 +415,10 @@ body.body-events #bottom {
 	height: 200px; 
 
 	float: left;
-	padding: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+
+	border: 6px solid white;
 
 
 }
@@ -473,7 +486,7 @@ body.body-events #bottom {
 
 
 	color: white;
-	opacity: .6;
+	opacity: .75;
 
 
 }
