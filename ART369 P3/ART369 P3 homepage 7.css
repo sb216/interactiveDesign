@@ -25,22 +25,26 @@ a {
 
 ul {
 	list-style: none;
+
+}
+
+
+.body-person #text #arrow {
+	display: none;
+}
+
+.body-movie #text #arrow {
+	display: none;
+}
+
+.hidden {
+	display: none;
 }
 
 
 
+
 #triangle {
-	/*width: 0; 
-	height: 0; 
-	border-left: 67px solid transparent; 
-	border-right: 67px solid transparent; 
-	border-bottom: 134px solid black;
-
-
-	position: absolute;
-	top: 36%;
-	left: 43%;*/
-
 	width: 0; 
 	height: 0; 
 	border-left: 45px solid transparent; 
@@ -55,17 +59,6 @@ ul {
 }
 
 #triangle-links {
-	/*width: 0; 
-	height: 0; 
-	border-left: 67px solid transparent; 
-	border-right: 67px solid transparent; 
-	border-bottom: 134px solid black;
-
-
-	position: absolute;
-	top: 36%;
-	left: 43%;*/
-
 	width: 0; 
 	height: 0; 
 	border-left: 12px solid transparent; 
@@ -103,7 +96,7 @@ ul {
 
 #links {
 	position: absolute;
-	right: 11%;
+	right: 12%;
 	top: 34.5%;
 
 	width: 20%;
@@ -179,13 +172,21 @@ ul {
     to {opacity: 1;}
 }*/
 
-.section-title {
-	font-size: 1.5rem;
 
+.sidebar {
 	width: 25%;
 	position: fixed;
 	top: 43%;
 	left: 5%;
+}
+
+.section-title {
+	font-size: 1.5rem;
+
+	/*width: 25%;
+	position: fixed;
+	top: 43%;
+	left: 5%;*/
 
 	text-align: right;
 	color: white;
@@ -193,7 +194,7 @@ ul {
 
 .section-title-two {
 
-	top: 50%;
+	margin-top: 3%;
 
 
 }
@@ -210,6 +211,9 @@ ul {
 .body-movie .section-title-two {
 	font-size: 1rem;
 }
+
+
+
 
 .section-title a{
 	font-size: 1.5rem;
@@ -260,7 +264,7 @@ ul {
 
 
 
-#body-person #text {
+.body-person #text {
 	top: 30%;
 }
 
@@ -320,7 +324,7 @@ body#body-who {
 	background-color: #99CC00;
 }
 
-body#body-person {
+body.body-person {
 	background-color: #99CC00;
 }
 
@@ -348,17 +352,17 @@ body#body-who #bottom {
 	left: 0px;
 }
 
-body#body-person .overflow {
+body.body-person .overflow {
 	background-color: #99CC00;
 
 }
 
-body#body-person #top {
+body.body-person #top {
 	top: 0px;
 	left: 0px;
 }
 
-body#body-person #bottom {
+body.body-person #bottom {
 	bottom: 0px;
 	left: 0px;
 }
@@ -541,6 +545,10 @@ body.body-events #bottom {
 
 }
 
+.section-title-small {
+	display: none;
+}
+
 .lowercase {
 	text-transform: none;
 }
@@ -582,12 +590,7 @@ body.body-events #bottom {
 .no-image .film-name {
 	padding-top: 5%;
 }
-/*
-#body-films .subtitle {
 
-	padding-left: 64%;
-
-}*/
 
 
 
@@ -684,10 +687,413 @@ body.body-events #bottom {
 }
 
 
+@media screen and (max-width: 1166px) {
+	#section-one {
+		width: 20%;
+		top: 35%;
+	}
+
+}
+
+@media screen and (max-width: 1080px) {
+	.image-list {
+		width: 450px;
+
+	}
+
+	#text {
+		width: 47%;
+		position: absolute;
+		/*right: 20%;
+		top: 30%;*/
+
+		padding-bottom: 10%;
+	}
+
+	.subtitle {
+		width: 70%;
+	}
+
+
+	.film-name {
+		color: white;
+
+		position: relative;
+		padding-top: 47%;
+		padding-right: 3%;
+		text-align: right;
+		opacity: .6;
+
+
+}
+}
+
+
+@media screen and (max-width: 945px) {
+	#text {
+			width: 55%;
+			position: absolute;
+			right: 3%;
+		}
+
+	.subtitle {
+		width: 80%;
+	}
 
 
 
 
+}
+
+@media screen and (max-width: 920px) {
+	
+	
+	#section-one {
+		left: 8%;
+		top: 36%;
+	}
+
+	.image-list {
+		width: 350px;
+
+	}
+
+	.film-name {
+		padding-top: 60%;
+	}
+
+}
+
+@media screen and (max-width: 908px) {
+	
+	#links {
+		top: 35%;
+	}
+	#links a{
+		font-size: .9rem;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 782px) {
+	#triangle {
+		width: 0; 
+		height: 0; 
+		border-left: 20px solid transparent; 
+		border-right: 20px solid transparent; 
+		border-bottom: 40px solid #00C95E;
+
+
+		position: absolute;
+		top: 48%;
+		left: 77%;
+	}
+
+	#section-one br {
+		display: initial;
+	}
+
+	#section-one {
+		width: 80%;
+		left: 3%;
+		top: 25%;
+	}
+
+	#section-one h1 a {
+		font-size: 2rem;
+		color: black;
+
+	}
+
+	#links {
+		width: 60%;
+		left: 23%;
+		top: 56%;
+		text-align: right;
+	}
+
+	#links a {
+		font-size: 1.2rem;
+	}
+
+
+	.image-list {
+		width: 350px;
+
+
+	}
+
+	.film-name {
+		padding-top: 60%;
+	}
+
+	#text {
+		width: 50%;
+		position: absolute;
+		right: 10%;
+		top: 30%;
+
+		padding-bottom: 10%;
+
+	}
+
+	#body-about #text {
+		top: 15%;
+	}
+
+	#body-who #text {
+		top: 15%;
+	}
+
+
+	.body-person #text {
+		top: 15%;
+	}
+
+	.body-events #text {
+		top: 15%;
+	}
+
+	.body-films #text {
+		top: 15%;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+	.main-text {
+		text-align: justify;
+	}
+
+	#text {
+		padding-bottom: 20%;
+	}
+
+	.image-list {
+		width: 300px;
+		height: 300px;
+	}
+
+	.film-name {
+		padding-top: 70%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 535px) {
+
+	#section-one {
+
+		width: 230px;
+		left: 38%;
+	}
+
+	#triangle {
+	
+		display: none;
+	}
+
+	.displayed {
+		display: none;
+	}
+
+	.hidden {
+		display: initial;
+	}
+
+	#links {
+		width: 200px;
+		top: 50%;
+		left: 44%;
+	}
+
+	#links a {
+		color: #00C95E;
+		display: block;
+	}
+
+	.section-title {
+		display: none;
+	}
+
+	#triangle-links {
+		left: 4%;
+	}
+
+	.body-person #text #arrow {
+		display: initial;
+	}
+
+	.body-movie #text #arrow {
+		display: initial;
+		margin-top: 10%;
+	}
+
+	#text {
+		position: absolute;
+		left: 15%;
+		top: 10%;
+		width: 70%;
+	}
+
+	.main-text {
+		width: 100%;
+		position: relative;
+		text-align: justify;
+
+	}
+
+	#body-sponsors .main-text {
+		text-align: left;
+	}
+
+
+	.subtitle {
+		position: relative;
+		width: 100%;
+	}
+
+
+
+
+	.section-title-small {
+		width: 100%;
+		display: initial;
+		position: relative;
+		float: right;
+
+
+		color: white;
+		font-size: 1.5rem;
+		margin-bottom: 10%;
+		text-align: right;
+
+	}
+/*
+	.section-title-small h1 {
+		margin-bottom: 3%;
+	}*/
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.image-list {
+		width: 300px;
+	}
+}
+
+
+	@media screen and (max-width: 440px) {
+
+	#section-one {
+
+		width: 230px;
+		left: 30%;
+
+	}
+
+	.subtitle {
+		position: relative;
+		/*text-align: right;
+		float: right;
+		display: block;
+		margin-bottom: 5%;*/
+		font-size: 1.1rem;
+		width: 100%;
+/*		text-align: right;*/
+	}
+
+
+	#triangle {
+	
+		display: none;
+	}
+
+	#links {
+		width: 230px;
+		top: 50%;
+		left: 30%;
+
+	}
+
+	#links a {
+		color: #00C95E;
+	}
+
+	/*.main-text {
+		padding-bottom: 20%;
+	}*/
+
+	
+
+
+}
+
+
+	@media screen and (max-width: 390px) {
+
+	#section-one {
+
+		width: 230px;
+		left: 20%;
+
+	}
+
+	#triangle {
+	
+		display: none;
+	}
+
+	#links {
+		width: 230px;
+		top: 50%;
+		left: 20%;
+
+	}
+
+	#links a {
+		color: #00C95E;
+	}
+
+	.name {
+		opacity: 1;
+	}
+
+	.film-name {
+		opacity: 1;
+	}
+
+	#text {
+		padding-bottom: 20%;
+	}
+
+	.image-list {
+		width: 215px;
+		height: 215px;
+/*		border: 6px solid white;*/
+
+		}
+
+	.film-name {
+		padding-top: 10%;
+		text-align: right;
+		padding-left: 4%;
+
+	}
+
+
+	
+	}
 
 
 

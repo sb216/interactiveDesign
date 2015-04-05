@@ -11,37 +11,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href="ART369 P3 homepage 7.css" rel='stylesheet' type='text/css'>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script> 
+	<meta content = "width=device-width, initial-scale=1, maximum-scale=1" name = "viewport"></meta>
 
-	    $(document).ready(function(){
-			$("#about-link").hover(function(){
-	    		$("#triangle").css("border-bottom", "90px solid #339966");
-	    		}, function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00C95E");
-			});
-
-			$("#who-link").hover(function(){
-	    		$("#triangle").css("border-bottom", "90px solid #99CC00");
-	    		}, function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00C95E");
-			});
-
-			$("#sponsors-link").hover(function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00CC99");
-	    		}, function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00C95E");
-			});
-
-
-
-			$("#films-link").hover(function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00E68A");
-	    		}, function(){
-	    		$("#triangle").css("border-bottom", "90px solid #00C95E");
-			});
-		});
-	</script>
+	
 	
 </head>
 
@@ -51,7 +23,7 @@
 
 	<section id = "section-one">
 		<h3 id = "date-start"> 4.3.15 &mdash;&mdash;&mdash;&mdash;&mdash;&mdash; 4.11.15 </h3>
-		<h1 id = "title"> <a href = "ART369 P3 homepage 6.html">Environmental film festival <br> at Yale </a></h1>
+		<h1 id = "title"> <a href = "ART369 P3 homepage 7.html">Environmental film festival <br> at Yale </a></h1>
 
 		<!-- <p> Advancing <br> environmental <br> awareness <br> through the <br> power of <span id = "film"> film </span></p> -->
 
@@ -64,7 +36,11 @@
 	<section id = "links">
 		<ul id = "main-nav"> 
 			
-			<li id = "films-link"> <a href="ART369 P3 films and events 7.html"> Films & Events </a> </li> 
+			<li id = "films-link" class = "displayed"> <a href="ART369 P3 films and events 7.html"> Films & Events </a> </li> 
+
+			<li id = "films-link" class = "hidden"> <a href="ART369 P3 films and events 7.html"> Films </a> </li> 
+
+			<li id = "films-link" class = "hidden"> <a href="ART369 P3 events 7.html"> Events </a> </li> 
 
 			<li id = "about-link"> <a href="ART369 P3 about 7.html">  About the Festival </a> </li> 
 			<li id = "who-link"> <a href="ART369 P3 who we are 7.html">  Who We Are </a> </li> 
@@ -79,7 +55,8 @@
 	<div id = "triangle"> </div> 
 
 
-
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type = "text/javascript" src = "ART369 P3 script.js"></script>
 
 
 </body>
