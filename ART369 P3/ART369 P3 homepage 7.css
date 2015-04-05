@@ -234,7 +234,7 @@ ul {
 }
 
 #body-who #text {
-	top: 10%;
+	top: 30%;
 }
 
 .body-movie #text {
@@ -254,7 +254,7 @@ ul {
 }
 
 .body-events #text {
-	top: 15%;
+	top: 20%;
 }
 
 
@@ -265,7 +265,7 @@ ul {
 }
 
 .body-films #text {
-	top: 10%;
+	top: 20%;
 }
 
 
@@ -312,16 +312,16 @@ body#body-about {
 }
 
 body#body-sponsors {
-	background-color: #99CC00;
+	background-color: #30D6AC;
 }
 
 
 body#body-who {
-	background-color: #30D6AC;
+	background-color: #99CC00;
 }
 
 body#body-person {
-	background-color: #00CC99;
+	background-color: #99CC00;
 }
 
 body.body-films, body.body-events {
@@ -334,7 +334,7 @@ body.body-movie {
 }
 
 body#body-who .overflow {
-	background-color:#30D6AC;
+	background-color: #99CC00;
 
 }
 
@@ -349,7 +349,7 @@ body#body-who #bottom {
 }
 
 body#body-person .overflow {
-	background-color: #00CC99;
+	background-color: #99CC00;
 
 }
 
@@ -416,7 +416,7 @@ body.body-events #bottom {
 
 	float: left;
 	margin-right: 1%;
-	margin-bottom: 1%;
+	margin-top: 4%;
 
 	border: 6px solid white;
 
@@ -568,7 +568,7 @@ body.body-events #bottom {
 	height: 300px;
 
 	float: left;
-	margin-bottom: 5%;
+	margin-bottom: 15%;
 
 	border: 6px solid white;
 
