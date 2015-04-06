@@ -28,8 +28,24 @@ ul {
 
 }
 
-.linethrough {
-	text-transform: line-through;
+.linethrough{
+
+	text-decoration: line-through;
+	
+
+
+  /*  border-bottom: 4px solid black;
+    position: relative;
+
+    left: 0%;
+    top: 30%;
+    width: 30%;*/
+
+     /*background: url(/images/black-1x2.png) repeat-x 0 10px;
+     */
+	
+
+
 }
 
 
