@@ -28,6 +28,10 @@ ul {
 
 }
 
+.linethrough {
+	text-transform: line-through;
+}
+
 
 .body-person #text #arrow {
 	display: none;
