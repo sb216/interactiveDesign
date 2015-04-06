@@ -1,6 +1,6 @@
 
 
-            $(document).ready(function(){
+
                 $("#about-link").hover(function(){
                     $("#triangle").css("border-bottom", "90px solid #339966");
                     }, function(){
@@ -26,8 +26,19 @@
                     }, function(){
                     $("#triangle").css("border-bottom", "90px solid #00C95E");
                 });
-            });
+           
 
+
+        
+
+//   }
+//   else {
+//      console.log('More than 960');
+//   }
+// });
+
+
+           
 
        
     
