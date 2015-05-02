@@ -99,7 +99,7 @@ h2 {
 .info-container p {
 	text-transform: lowercase;
 	font-size: 12px;
-		background-color: #FFFF66; 
+	background-color: #FFFF66; 
 }
 
 .aboutArtDraw {
@@ -146,6 +146,11 @@ h2 {
 	margin-bottom: 10px;
 
 	background-color: #FFFF66;
+}
+
+.reloadPage {
+	font-size: 30px;
+	line-height: 35px;
 }
 
 
