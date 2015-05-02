@@ -1,0 +1,232 @@
+ p, h1, h2, h3, div, img, body, header {
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ body {
+ 	/*font-family: "Open Sans Condensed", sans-serif;*/
+ 	font-family: "Oswald", sans-serif;
+ 	font-weight: 300;
+ 	font-size: 14px;
+ }
+
+
+header {
+
+	height: 100px;
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	 	text-align: right;
+
+
+}
+
+.info-container {
+ 	position: absolute;
+ 	width: 150px;
+ 	height: 100px;
+ 	top: 140px;
+ 	left: 12px;
+
+
+ }
+
+.button {
+/*	display: inline;*/
+	text-transform: uppercase;
+	color: black;
+
+/*	border-bottom: 4px solid black;*/
+	box-sizing: border-box;
+	font-size: 17px;
+	line-height: 35px;
+	margin-bottom: 10px;
+	padding: 3px;
+	font-weight: 300;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.button:hover {
+	color: #FFFF66;
+}
+
+ .title {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.explanation {
+	position: absolute;
+	top: 55px;
+	left: 12px;
+}
+/*
+.bold {
+	font-weight: 700;
+	font-size: 14px;
+}*/
+
+h2 {
+	/*position: absolute;
+	right: 48px;
+	top: 6px;*/
+	font-size: 14px;
+	font-weight: 300;
+
+
+	text-transform: lowercase;
+	cursor: pointer;
+}
+
+/*.switchToCanvas, .switchToImage {
+	margin-right: 50px;
+}*/
+
+.aboutImage {
+	font-weight: 700;
+	color: black;
+
+}
+
+.info-container p {
+	text-transform: lowercase;
+	font-size: 12px;
+		background-color: #FFFF66; 
+}
+
+.aboutArtDraw {
+	font-weight: 700;
+	margin-top: 30px;
+	color:black;
+}
+
+.explanation {
+	text-transform: lowercase;
+	font-size: 12px;
+	width: 143px;
+	margin-bottom: 10px;
+}
+
+
+
+
+.aboutImage {
+	font-weight: 700;
+	color: black;
+	font-size: 14px;
+
+}
+
+.aboutArtDraw {
+	font-weight: 700;
+	margin-top: 30px;
+	color:black;
+}
+
+.explanation {
+	text-transform: lowercase;
+	font-size: 12px;
+	width: 143px;
+	margin-bottom: 10px;
+
+}
+
+.imageInfo {
+	text-transform: lowercase;
+	font-size: 12px;
+	width: 143px;
+	margin-bottom: 10px;
+
+	background-color: #FFFF66;
+}
+
+
+
+
+
+
+ #canvasDiv {
+ 	position: relative;
+ 	margin: 0px auto;
+ 	padding: 0px;
+ 	opacity: 0;
+
+ }
+
+ .wrapper {
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+
+ 	width: 96.5%;
+ 	height: 92.7vh;
+
+ 	border: 25px solid black;
+
+ }
+
+ canvas { 
+ 	background-color: #EEEEEE;
+ 	position: absolute;
+ 	right: 20px; 
+ 	top: 90px;
+ 	cursor: crosshair;
+
+
+
+
+ }
+
+
+.container {
+     position: absolute;
+     top: 90px;
+     right: 20px;
+     width:1050px;
+     height:490px;
+/*     border: 2px solid black;*/
+     box-sizing: border-box;
+     text-align: center;
+      z-index: 100;
+      overflow: hidden;
+
+
+    }
+
+
+
+.image:before {
+ content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+
+}
+
+img {
+    	max-height: 480px;
+    	max-width: 990px;
+    	display: inline-block;
+    	padding: 0px;
+    	margin: 0px;
+    	vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+
+
+

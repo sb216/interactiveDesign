@@ -1,0 +1,198 @@
+ p, h1, h2, div, img, body, header {
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ body {
+ 	/*font-family: "Open Sans Condensed", sans-serif;*/
+ 	font-family: "Oswald", sans-serif;
+ 	font-weight: 300;
+ 	font-size: 14px;
+ }
+
+
+header {
+	width: 550px;
+	height: 400px;
+	position: absolute;
+/*	top: 16px;*/
+	top: 120px;
+	left: 10px;
+	text-align: right;
+
+}
+
+h2 {
+	/*position: absolute;
+	right: 48px;
+	top: 6px;*/
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFCC00;
+
+	text-transform: lowercase;
+	cursor: pointer;
+}
+
+.logo {
+	height: 60px;
+	width: auto;
+	position: absolute;
+	top: -20px;
+}
+
+.button {
+	text-transform: uppercase;
+	color: black;
+	font-size: 75px;
+	line-height: 65px;
+/*	display: inline;*/
+	padding: 5px;
+/*
+	position: relative;
+	top: 530px;*/
+
+}
+
+.button:hover {
+	color: white;
+	background-color: black;
+}
+
+/*.switchToCanvas {
+	margin-right: 70px;
+}
+
+.switchToImage {
+	margin-right: 70px;
+}
+
+.reloadPage {
+
+}*/
+
+ .title {
+	/*position: absolute;
+	top: 5px;
+	left: 35px;*/
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+
+.aboutImage {
+	font-weight: 700;
+	color: black;
+
+}
+
+.aboutArtDraw {
+	font-weight: 700;
+	margin-top: 30px;
+	color:black;
+}
+
+.explanation {
+	text-transform: lowercase;
+	font-size: 12px;
+	width: 143px;
+	margin-bottom: 10px;
+
+}
+
+.imageInfo {
+	text-transform: lowercase;
+	font-size: 12px;
+	width: 143px;
+	margin-bottom: 10px;
+
+	background-color: #FFFF66;
+}
+
+
+
+
+
+
+
+
+
+
+ #canvasDiv {
+ 	position: relative;
+ 	margin: 0px auto;
+ 	padding: 0px;
+ 	opacity: 0;
+
+ }
+
+ canvas { 
+ 	background-color: #EEEEEE;
+ 	position: absolute;
+ 	right: 20px; 
+ 	top: 20px;
+ 	cursor: crosshair;
+
+
+
+ }
+
+ .info-container {
+ 	position: absolute;
+ 	width: 300px;
+ 	height: 100px;
+ 	bottom: 200px;
+ 	left: 400px;
+ }
+
+.container {
+     position: absolute;
+     top: 20px;
+     right: 20px;
+/*     width:1150px;*/
+     width:670px;
+     height:650px;
+/*     border: 4px solid black;*/
+     box-sizing: border-box;
+     text-align: center;
+      z-index: 100;
+      overflow: hidden;
+
+
+    }
+
+
+
+.image:before {
+ content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+
+}
+
+img {
+    	max-height: 640px;
+    	max-width: 660px;
+    	display: inline-block;
+    	padding: 0px;
+    	margin: 0px;
+    	vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+
+
+
