@@ -6,6 +6,7 @@
 //    When you are logged into Kimono, click your name at the top right and click "Account".
 //    Your API key will appear. Paste this code in line 10 of the below code after "apikey-"
 
+$('elementid').bind('click',function() {   alert('Click event triggered'); });
 
 $(".switchToCanvas").click(function(){
   $("#canvasDiv").css("opacity", "1").css("z-index", "150");
